@@ -4,14 +4,23 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/lesson1/BednarchukMarkiyan" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/IrynaHeleshko" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/IrynaKrechetowa" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/KaterynaNenko" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/KostiantynStavruk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/KvitoslavaSikyrynska" isTestSource="false" packagePrefix="com.company" />
       <sourceFolder url="file://$MODULE_DIR$/lesson1/LauraShcherbak" isTestSource="false" packagePrefix="main.java.aqa.java.core.lesson1.lshcherbak" />
       <sourceFolder url="file://$MODULE_DIR$/lesson1/NazarSobol" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson1/RostyslavBarabash" isTestSource="false" packagePrefix="main.java.aqa.java.core.lesson1.rostyslavbas" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson1/ViraKrychkovska" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/NazarVdovych" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/OleksandrHalik" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson1/OlyaYesyp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/lesson1/LiubovPylypenko" isTestSource="false" packagePrefix="main.java.aqa.java.core.lesson1.liubovpylypenko"  />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/PavloTymofiiuk" isTestSource="false" packagePrefix="com.Tymofiiuk" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/Riaboshapka" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/Romanov Yevgen" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/RostyslavBarabash" isTestSource="false" packagePrefix="main.java.aqa.java.core.lesson1.rostyslavbas" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/Yevgen Romanov" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
