@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/lesson1/NazarSobol" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lesson1/RostyslavBarabash" isTestSource="false" packagePrefix="main.java.aqa.java.core.lesson1.rostyslavbas" />
       <sourceFolder url="file://$MODULE_DIR$/lesson1/ViraKrychkovska" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lesson1/OlyaYesyp" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
