@@ -1,4 +1,4 @@
-package DianaHrymaliuk;
+package lesson1.DianaHrymaliuk;
 
 public class HelloWorld {
     public static  void main(String[]arg){
