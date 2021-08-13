@@ -1,4 +1,4 @@
-package main.java.aqa.java.core.lesson1.yuliiaavrakhova;
+package aqa.core.lesson1.YuliiaAvrakhova;
 
 public class HelloWorld {
     public static void main(String[]args){
