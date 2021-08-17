@@ -11,6 +11,8 @@ public class SimpleInput {
         System.out.println("Enter Integer:");
         int i = Integer.parseInt(br.readLine()); // stream reading
         System.out.println(i);
+
+
     }
 
 }
