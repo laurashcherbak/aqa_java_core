@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2akylo.alun;
+package main.java.aqa.core.lesson2.alun;
 
 public class hw2 {
     public static void main(String[] args) {
