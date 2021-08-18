@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.yumykhalchuk;
+package aqa.core.lesson2.yumykhalchuk;
 
 /*
     1.	Write a code that will print on the screen output: Hello human!

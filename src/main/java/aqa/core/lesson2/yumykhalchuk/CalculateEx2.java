@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.yumykhalchuk;
+package aqa.core.lesson2.yumykhalchuk;
 
 /*	Calculate expression (5+2∙3^2)/√(7∙4^2/(5+2∙2))*/
 

@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.yumykhalchuk;
+package aqa.core.lesson2.yumykhalchuk;
 
 /*    6.	Write a program that reads from console integer value and write to console value that is 2 times more than input.
  */

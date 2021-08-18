@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.yumykhalchuk;
+package aqa.core.lesson2.yumykhalchuk;
 
 /*
  Create a program which calculates the expression 14/209 + 14 * (29-13² + 14/3) and displays the result on the screen.*/
