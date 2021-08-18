@@ -1,4 +1,9 @@
-package main.java.aqa.core.lesson2.ViraKrychkovska;
+//package main.java.aqa.core.lesson2.ViraKrychkovska;
+package aqa.core.lesson2.ViraKrychkovska;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class HomeWork2 {
     public static void main(String[] args) throws IOException {
@@ -18,8 +23,10 @@ public class HomeWork2 {
         s2 = 1000;
         i3 = 100000;
         l4 = 10000000L;
-        f5 = 5,123f;
-        d6 = 6,12345d;
+//        f5 = 5,123f;
+        f5 = 5.123f;
+//        d6 = 6,12345d;
+        d6 = 6.12345d;
         c7 = 'C';
         b8 = true;
 // 4
@@ -42,7 +49,9 @@ public class HomeWork2 {
         double y = 14 / 209 + 14 * (29 - Math.pow(13, 2) + 14 / 3);
         System.out.println("The result is " + y);
 //8
-        double y = (5 + 2 * Math.pow(3, 2)) / Math.sqrt(7 * (Math.pow(4, 2) / (5 + 2 * 2));
+//        double y = (5 + 2 * Math.pow(3, 2)) / Math.sqrt(7 * (Math.pow(4, 2) / (5 + 2 * 2));
+        y = (5 + 2 * Math.pow(3, 2)) / Math.sqrt(7 * (Math.pow(4, 2) / (5 + 2 * 2)));
+
         System.out.println("The result is " + y);
     }
 }
