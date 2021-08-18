@@ -31,7 +31,7 @@ public class HomeWork2 {
         }
     public static void arithmeticOperations() {
         int x = (int) (14./209 + 14 * (29-13*13 + 14./3));
-        int y = (int) (5+ (2 * Math.pow(3, 2)));
+        int y = (int) (5+ (2 * Math.pow(3, 2)) / (Math.sqrt(7 * ((4 * 4) / (5 + (2 * 2))))));
         System.out.println(" Result of arithmetic operation:"+  (x));
         System.out.println(" Result of arithmetic operation:"+  (y));
     }
