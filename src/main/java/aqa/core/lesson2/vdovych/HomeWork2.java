@@ -46,10 +46,10 @@ public static void main(String[] args) {
 
     //Task 7
     /*double a = (14.0 / 209.0) + 14 * ((29 - 13 * 13) + (14.0 / 3.0));
-        System.out.println("Result ="a); */
+        System.out.println("Result =" + a); */
 
 
     //Task 8
     /*double b = (5 + (2 * 3 * 3)) / (Math.sqrt(7 * ((4 * 4) / (5 + (2 * 2)))));
-    System.out.println("Result ="b);*/
+    System.out.println("Result =" + b);*/
 }
