@@ -1,4 +1,4 @@
-package knenko;
+package aqa.core.lesson2.knenko;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

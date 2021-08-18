@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.yesyp;
+package aqa.core.lesson2.yesyp;
 
 import java.io.BufferedReader;
 import java.io.IOException;
