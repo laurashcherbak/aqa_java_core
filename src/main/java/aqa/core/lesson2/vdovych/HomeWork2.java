@@ -21,16 +21,16 @@ public static void main(String[] args) {
     char g = 'Nazar';
     boolean l = true;
 
-    System.out.printf("Result ="a,"\n");
-    System.out.printf("Result ="b,"\n");
-    System.out.printf("Result ="c,"\n");
-    System.out.printf("Result ="d,"\n");
-    System.out.printf("Result ="e,"\n");
-    System.out.printf("Result ="f,"\n");
-    System.out.printf("Result ="g,"\n");
-    System.out.printf("Result ="l,"\n");
+    System.out.printf("Result =" + a,"\n");
+    System.out.printf("Result =" + b,"\n");
+    System.out.printf("Result =" + c,"\n");
+    System.out.printf("Result =" + d,"\n");
+    System.out.printf("Result =" + e,"\n");
+    System.out.printf("Result =" + f,"\n");
+    System.out.printf("Result =" + g,"\n");
+    System.out.printf("Result =" + l,"\n");
 
-    //System.out.println("Result sum ="a + b);
+    //System.out.println("Result sum =" + a + b);
     }
     */
     //Task 6
@@ -38,7 +38,7 @@ public static void main(String[] args) {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Integer:");
         int anynumber = Integer.parseInt(br.readLine());
-        System.out.println("Result =" anynumber * 2);
+        System.out.println("Result =" + anynumber * 2);
 
  }
 
