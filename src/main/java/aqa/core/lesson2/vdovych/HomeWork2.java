@@ -1,4 +1,5 @@
-package main.java.aqa.core.lesson2.vdovych;
+//package main.java.aqa.core.lesson2.vdovych;
+package aqa.core.lesson2.vdovych;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,16 +9,16 @@ public class HomeWork2 {
 
     // Task1
 
-    /*
-     public static void main(String[] args) {
+//    /*
+     public static void main(String[] args) throws IOException {
         System.out.println("Hello human!");
-    }
-    */
+//    }
+//    */
 
 
     //Task 2 - 5
-    /*
-public static void main(String[] args) {
+//    /*
+//public static void main(String[] args) {
 
     byte a = 10;
     short b = 20;
@@ -40,34 +41,36 @@ public static void main(String[] args) {
     int Suma = a + b;
 
     System.out.println("Result sum =" + Suma);
-    }
-    */
+//    }
+//    */
     //Task 6
-    /*
-    public static void main(String[] args) throws IOException {
+//    /*
+//    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Integer:");
         int anynumber = Integer.parseInt(br.readLine());
         System.out.println("Result =" + anynumber * 2);
 
- }*/
+// }
+// */
 
 
 
     //Task 7
-    /*
-    public static void main(String[] args) {
-    double a = (14.0 / 209.0) + 14 * ((29 - 13 * 13) + (14.0 / 3.0));
-        System.out.println("Result =" + a); }
-        */
+//    /*
+//    public static void main(String[] args) {
+    double a1 = (14.0 / 209.0) + 14 * ((29 - 13 * 13) + (14.0 / 3.0));
+        System.out.println("Result =" + a1);
+//}
+//        */
 
 
     //Task 8
-     /*
-    public static void main(String[] args) {
+//     /*
+//    public static void main(String[] args) {
 
-    double b = (5 + (2 * 3 * 3)) / (Math.sqrt(7 * ((4 * 4) / (5 + (2 * 2)))));
-    System.out.println("Result =" + b);
+    double b1 = (5 + (2 * 3 * 3)) / (Math.sqrt(7 * ((4 * 4) / (5 + (2 * 2)))));
+    System.out.println("Result =" + b1);
     }
-   */
+//   */
 }
