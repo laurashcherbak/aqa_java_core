@@ -1,5 +1,9 @@
 package main.java.aqa.core.lesson2.vdovych;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class HomeWork2 {
 
     // Task1
@@ -39,7 +43,8 @@ public static void main(String[] args) {
     }
     */
     //Task 6
-    /*public static void main(String[] args) throws IOException {
+    /*
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Integer:");
         int anynumber = Integer.parseInt(br.readLine());
@@ -58,9 +63,11 @@ public static void main(String[] args) {
 
 
     //Task 8
-    /*public static void main(String[] args) {
+     /*
+    public static void main(String[] args) {
 
     double b = (5 + (2 * 3 * 3)) / (Math.sqrt(7 * ((4 * 4) / (5 + (2 * 2)))));
     System.out.println("Result =" + b);
-    }*/
+    }
+   */
 }
