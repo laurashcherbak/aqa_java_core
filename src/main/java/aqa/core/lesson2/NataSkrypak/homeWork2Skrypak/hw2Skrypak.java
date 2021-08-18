@@ -52,5 +52,16 @@ public class hw2Skrypak {
         System.out.println("Result of task 8 is: " + x / z);
     }
 
+    //Task 6
+
+    public static void throws IOException {
+        // Enter data using BufferReader
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        // Reading data using readLine
+        System.out.println("Enter Integer:");
+        int i = Integer.parseInt(br.readLine());
+        int i2 = i * 2;
+        System.out.println(i2);
+    }
 
 }
