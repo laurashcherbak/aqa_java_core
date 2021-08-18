@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.yesyp;
+package aqa.core.lesson2.yesyp;
 
 public class DataTypeYesyp {
     public static void main(String[] args) {
