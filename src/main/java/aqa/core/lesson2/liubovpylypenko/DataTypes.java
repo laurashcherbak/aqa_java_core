@@ -23,11 +23,13 @@ public class DataTypes {
         System.out.println("b8 = "+b8);
         System.out.println("sum = "+sum(b1, a2));
 
+        //14/209 + 14 * (29-13² + 14/3)=
         double exp1 = 14/209 + 14 * (29-Math.pow(13, 2) + 14/3);
         System.out.println("exp1 = "+exp1);
 
-        double exp2 = (5 + 2 * Math.pow(3, 2))/ Math.sqrt(3);
-        System.out.println("exp2 = "+exp2);
+        double op1 = 5 + 2 * Math.pow(3, 2) ;
+        double op2 = Math.sqrt((7 * Math.pow(4, 2)) / (5 + 2 * 2));
+        System.out.println("exp2: " + op1 / op2);
     }
 
     public static int sum(int x, int y){
