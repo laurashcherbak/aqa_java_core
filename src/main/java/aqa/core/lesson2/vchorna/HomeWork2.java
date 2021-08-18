@@ -11,7 +11,7 @@ public class HomeWork2 {
 
         byte byteVariable = 127;
         short shortVariable = 0b1101;
-        int intVariable = 0x9f;
+        int intVariable = 0x9F;
         long longVariable = 876543854536575L;
         float floatVariable = 12.675F;
         double doubleVariable = 32.423;
@@ -34,7 +34,7 @@ public class HomeWork2 {
         int i = Integer.parseInt(br.readLine());
         System.out.println(i * 2);
 
-        System.out.println(14.0 / 209 + 14 * (29 - Math.pow(13, 2) + 14.0 / 3));
+        System.out.println(14F / 209 + 14 * (29 - Math.pow(13, 2) + 14F / 3));
 
         System.out.println((5 + 2 * Math.pow(3, 2)) / Math.sqrt(7 * Math.pow(4, 2) / (5 + 2 * 2)));
     }
