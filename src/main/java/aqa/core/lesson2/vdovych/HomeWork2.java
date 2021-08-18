@@ -38,13 +38,13 @@ public static void main(String[] args) {
     }
     */
     //Task 6
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Integer:");
         int anynumber = Integer.parseInt(br.readLine());
         System.out.println("Result =" + anynumber * 2);
 
- }
+ }*/
 
 
 
