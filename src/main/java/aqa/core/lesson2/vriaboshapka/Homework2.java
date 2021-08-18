@@ -1,4 +1,5 @@
-package main.java.aqa.core.lesson2.vriaboshapka;
+//package main.java.aqa.core.lesson2.vriaboshapka;
+package aqa.core.lesson2.vriaboshapka;
 
 import java.io.BufferedReader;
 import java.io.IOException;
