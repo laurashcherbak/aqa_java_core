@@ -1,6 +1,5 @@
-package aqa.core.lesson2.akylo.IrynaKrechetova;
+package aqa.core.lesson2.IrynaKrechetova;
 
-import java.awt.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
