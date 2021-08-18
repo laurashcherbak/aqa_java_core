@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.alun;
+package aqa.core.lesson2.alun;
 // super puper final push ver2.0 - just handshake and megafriendship with "клята" IntelliJ
 import java.util.Scanner;//як на мене то дешевше імпортнути Сканер ніж громіздкий і мутний код в д.з.2 п.6
 import static java.lang.Math.sqrt;
