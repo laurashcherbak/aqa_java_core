@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.akylo.alun;
+package main.java.aqa.core.lesson2.alun;
 
 import java.util.Scanner;
 import static java.lang.Math.sqrt;
