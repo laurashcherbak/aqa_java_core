@@ -1,4 +1,4 @@
-package YulliiaAvrakhova;
+package aqa.core.lesson2.YulliiaAvrakhova;
 
 
 import java.io.BufferedReader;
