@@ -1,11 +1,12 @@
 package main.java.aqa.core.lesson2.nsobol;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 // task № 1
 public class Nsobol {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
     System.out.println("Hello human!");
 
 
@@ -59,7 +60,7 @@ public class Nsobol {
         System.out.println("14/209 + 14 * (29-13*13 + 14/3) = "+(14./209 + 14 * (29-13*13 + 14/3)));
 
         // Task 8
-        System.out.println("((5 + (2 * 3 * 3))/√(7*4*4/(5 + 2*2)) = "+((5 + 2*3*3)/ Math.sqrt((7 * 4 * 4/5 +(2*2) ))) ) );
+        System.out.println("((5 + (2 * 3 * 3))/√(7*4*4/(5 + 2*2)) = "+((5 + 2*3*3)/ Math.sqrt((7 * 4 * 4/5 +(2*2) ))) );
 
 
     }
