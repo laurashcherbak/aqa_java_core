@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson2.nsobol;
+package aqa.core.lesson2.nsobol;
 
 import java.io.BufferedReader;
 import java.io.IOException;
