@@ -1,4 +1,5 @@
-package homeWork2Skrypak;
+//package homeWork2Skrypak;
+package aqa.core.lesson2.NataSkrypak.homeWork2Skrypak;
 
 
 import java.io.BufferedReader;
@@ -6,8 +7,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
-public class hw2Skrypak {
-    public static void main(String[] args) {
+//public class hw2Skrypak {
+public class Hw2Skrypak {
+
+    public static void main(String[] args) throws IOException {
 
         //task 1
 
@@ -42,8 +45,10 @@ public class hw2Skrypak {
         //Task 7
 
         System.out.println(14 / 209 + 14 * (29 - Math.pow(13, 2) + 14 / 3));
+        task8();
+        readFromCommandLIne();
     }
-        //Task8. чомусь результат не виводиться, не можу побачити в чому помилка
+    //Task8. чомусь результат не виводиться, не можу побачити в чому помилка
 
     public static void task8() {
         double x = 5 + 2 * Math.pow(3, 2);
@@ -54,7 +59,8 @@ public class hw2Skrypak {
 
     //Task 6
 
-    public static void throws IOException {
+    //    public static void throws IOException {
+    public static void readFromCommandLIne() throws IOException {
         // Enter data using BufferReader
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         // Reading data using readLine
