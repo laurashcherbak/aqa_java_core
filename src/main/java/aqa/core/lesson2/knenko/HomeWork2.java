@@ -58,7 +58,7 @@ public class HomeWork2 {
 
         //task_7 - I understand that this is not the right solution, but for now -it will be so.
         System.out.println("14/209 + 14 * (29-13*13 + 14/3) = "+(14./209 + 14 * (29-13*13 + 14./3)));
-        //task_8
+        //task_8. The same.
         System.out.println("(5 + 2*3*3)/√(7*4*4/(5 + 2*2)) = "+((5 + 2*3*3)/sqrt(7.*4*4/(5 + 2*2))));
 
     }
