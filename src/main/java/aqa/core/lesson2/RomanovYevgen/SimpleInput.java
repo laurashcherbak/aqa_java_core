@@ -7,7 +7,8 @@ public class SimpleInput {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // stream opening
         System.out.println("Enter Integer:");
         int i = Integer.parseInt(br.readLine()); // stream reading
-        System.out.println(i);
+//        System.out.println(i);
+        System.out.println(i*2);
 
 
     }
