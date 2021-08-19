@@ -7,7 +7,7 @@ public class HomeWork4 {
                 for (int i = 0; i < myArray.length; i++) {
                         myArray[i] = i + 1;
                         if (myArray[i] == x) {
-                                System.out.println("Value:" + myArray[i] + ", index:" +i);
+                                System.out.println("Value:" + myArray[i] + ", index:" +i );
                                 break;
                         }
                 }
