@@ -13,22 +13,26 @@ public class HomeWork3 {
         }
         System.out.println();
 
-        for (int x = 1; x < 20; x++) {
+        boolean doWhile = true;
+        do {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("Enter first Number:");
             String i = br.readLine();
             if (i.equals("q")) {
                 System.exit(0);
+                doWhile = false;
             }
             System.out.println("Enter the sign of one of the arithmetic operations:");
             String sign = br.readLine();
             if (sign.equals("q")) {
                 System.exit(0);
+                doWhile = false;
             }
             System.out.println("Enter second Number:");
             String j = br.readLine();
             if (j.equals("q")) {
                 System.exit(0);
+                doWhile = false;
             }
             int result = 0;
             switch (sign) {
@@ -49,7 +53,7 @@ public class HomeWork3 {
                     System.exit(0);
             }
             System.out.println(result);
-        }
+        } while (doWhile);
     }
 }
 
