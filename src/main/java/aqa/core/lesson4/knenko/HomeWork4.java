@@ -15,7 +15,6 @@ public class HomeWork4 {
                         int firstIndex = 0;
                         int lastIndex = myArray.length - 1;
 
-
                         while (firstIndex != lastIndex) {
                                 int middleIndex = (firstIndex + lastIndex) / 2;
 
