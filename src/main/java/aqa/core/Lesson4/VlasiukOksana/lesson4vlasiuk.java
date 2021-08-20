@@ -1,4 +1,4 @@
-package aqa.core.Lesson4;
+package aqa.core.Lesson4.VlasiukOksana;
 
 import java.util.Scanner;
 import java.util.Arrays;
