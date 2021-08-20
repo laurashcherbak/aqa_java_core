@@ -12,7 +12,7 @@ public class Methods {
 
     }
 
-    public double getAverageSalary(double[] salaries) {
+    public static double getAverageSalary(double[] salaries) {
         // write your code here
         if (salaries.length == 0) {
             return 0;
