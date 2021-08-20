@@ -1,4 +1,4 @@
-package aqa.core.lesson1.HalynaKuchabska;
+package aqa.core.lesson1.halynakuchabska;
 
 public class Homework1Kuchabska {
     public static void main(String[] args) {
