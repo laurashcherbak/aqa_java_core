@@ -1,6 +1,8 @@
 package aqa.core.lesson5.NazarVdovych;
 
 
+import java.util.Arrays;
+
 public class MethodsTask {
 
     /*
@@ -15,6 +17,7 @@ public class MethodsTask {
      *
      *
      */
+    /*
     public static void main(String[] args) {
         int[] x = new int[]{1, 1, 1, 2, 2, 2, 1, 3, 1, 2, 5, 4};
         System.out.println(uniqueCount(x));
@@ -49,7 +52,7 @@ public class MethodsTask {
         return res;
     }
 
-}
+}*/
     /*
      * Implement the method that merges two arrays into one. Resulting array should consist of elements that present only in the one array and absent in other
      * <p>
@@ -61,6 +64,29 @@ public class MethodsTask {
      * @param arr2 - second input array with unique elements
      * @return array with not common elements from input arrays
      */
+    /*
+    public static void main(String[] args) {
+
+
+            int[] firstArray = {56,78,90,32,67,12};
+            int[] secondArray = {11,14,9,5,2,23,15};
+            int length = firstArray.length + secondArray.length;
+            int[] mergedArray = new int[length];
+            int pos = 0;
+            for (int element : firstArray)
+            {
+                mergedArray[pos] = element;
+                pos++;
+            }
+            for (int element : secondArray)
+            {
+                mergedArray[pos] = element;
+                pos++;
+            }
+            System.out.println(Arrays.toString(mergedArray));
+        }
+
+*/
     //public int[] uniqueElementsMergeArray(int[] arr1, int[] arr2) {
       //  return null;
    // }
@@ -88,10 +114,21 @@ public class MethodsTask {
      * @param arr - input array
      * @return array with opposite ordering of elements
      */
-    //public int[] reverseArray(int[] arr) {
-       // return null;
-    //}
+    /*
+    public static void main(String[] args) {
+        int[] a = new int[]{1,5,6,8,9,10,12,15,16};
+        int n=a.length;
+        int[] b = new int[n];
 
+        for(int i=0;i<n;i++){
+            int temp=a[i];
+            b[i]=a[n-i-1];
+            a[i]=temp;
+            System.out.println(b[i]);
+        }
+
+
+    }*/
     /*
      * Implement the method that sorts elements of an array that place on even positions  (indexes: 0, 2, 4 ...)
      * <p>
@@ -102,7 +139,16 @@ public class MethodsTask {
      * @param arr - input array
      * @return - sorted array of elements on even positions
      */
-    // public int[] sortEvenPositionArray(int[] arr) {
-       // return null;
-   // }
+    public static void main(String[] args) {
+
+        int[] myList = {11, 1, 5, 8, 15};
+
+
+       // System.out.print("елементи ");
+        for (int i = 0; i < myList.length; i++) {
+            if (i % 2 == 0) {
+                System.out.print("індекс " + i + " = " + myList[i] + ", ");
+            }
+        }
+    }
 }
