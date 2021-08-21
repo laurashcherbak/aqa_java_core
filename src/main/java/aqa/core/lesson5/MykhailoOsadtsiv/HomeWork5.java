@@ -26,6 +26,11 @@ public class HomeWork5 {
    //  * output array - [4, 3, 2, 1]
         int[] arr7 = new int[]{1, 2, 3, 4};
         System.out.println(Arrays.toString(reverseArray(arr7)));
+
+   //     * input array - [3, 7, 1, 4, 2]
+   //  * output array - [1, 7, 2, 4, 3]
+        int[] arr8 = new int[]{3, 7, 1, 4, 2};
+        System.out.println(Arrays.toString(sortEvenPositionArray(arr8)));
     }
 
     /**
@@ -206,7 +211,17 @@ public class HomeWork5 {
      * @param arr - input array
      * @return - sorted array of elements on even positions
      */
-    public int[] sortEvenPositionArray(int[] arr) {
-        return null;
+    public static int[] sortEvenPositionArray(int[] arr) {
+        int tmp;
+        for (int k = 0; k < arr.length - 4; k += 2) {
+            for (int i = 0; i < arr.length -2; i = i+2) {
+                if (arr[i] > arr[i + 2]) {
+                tmp = arr[i];
+                arr[i] = arr[i + 2];
+                arr[i + 2] = tmp;
+                }
+            }
+        }
+        return arr;
     }
 }
