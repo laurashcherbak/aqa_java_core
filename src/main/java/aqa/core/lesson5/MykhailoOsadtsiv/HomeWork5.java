@@ -21,6 +21,11 @@ public class HomeWork5 {
         int[] arr5 = new int[]{1, 2, 3};
         int[] arr6 = new int[]{2, 3, 4};
         System.out.println(Arrays.toString(commonElements(arr5, arr6)));
+
+    //     * input array - [1, 2, 3, 4]
+   //  * output array - [4, 3, 2, 1]
+        int[] arr7 = new int[]{1, 2, 3, 4};
+        System.out.println(Arrays.toString(reverseArray(arr7)));
     }
 
     /**
@@ -183,8 +188,12 @@ public class HomeWork5 {
      * @param arr - input array
      * @return array with opposite ordering of elements
      */
-    public int[] reverseArray(int[] arr) {
-        return null;
+    public static int[] reverseArray(int[] arr) {
+        int[] output = new int[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            output[arr.length - i - 1] = arr[i];
+        }
+        return output;
     }
 
     /**
