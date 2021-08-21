@@ -15,6 +15,12 @@ public class HomeWork5 {
         int[] arr3 = new int[]{1, 2, 4, 5};
         int[] arr4 = new int[]{1, 3, 7, 5};
         System.out.println(Arrays.toString(uniqueElementsMergeArray(arr3, arr4)));
+
+     //   * arr1 - [1, 2, 3] arr2 - [2, 3, 4]
+   //  * output array - [2, 3]
+        int[] arr5 = new int[]{1, 2, 3};
+        int[] arr6 = new int[]{2, 3, 4};
+        System.out.println(Arrays.toString(commonElements(arr5, arr6)));
     }
 
     /**
@@ -130,12 +136,41 @@ public class HomeWork5 {
      * arr1 - [1, 2, 3] arr2 - [2, 3, 4]
      * output array - [2, 3]
      *
-     * @param arr1 - first input array with unique elements
-     * @param arr2 - second input array with unique elements
+    // * @param arr1 - first input array with unique elements
+  //   * @param arr2 - second input array with unique elements
      * @return array with common elements from first and second arrays
+     *
      */
-    public int[] commonElements(int[] arr1, int[] arr2) {
-        return null;
+    public static int linearSearch(int arr[], int elementToSearch) {
+
+        for (int index = 0; index < arr.length; index++) {
+            if (arr[index] == elementToSearch)
+                return index;
+        }
+        return -1;
+    }
+
+    public static int[] commonElements(int[] arr1, int[] arr2) {
+        int outpuyArreyLength = 0;
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr2.length; j++) {
+                if (arr1[i] == arr2[j]) {
+                    outpuyArreyLength++;
+                }
+            }
+        }
+
+        int[] output = new int[outpuyArreyLength];
+        int k = 0;
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr2.length; j++) {
+                if (arr1[i] == arr2[j] && linearSearch(output, arr1[i]) == -1) {
+                    output[k] = arr1[i];
+                    k++;
+                }
+            }
+        }
+        return output;
     }
 
     /**
