@@ -33,6 +33,7 @@ public class Beymart3a
              printf("%2lf * %2lf = %2lf", first,second,(first*second));
              break;
          case'-':
+
              printf("%2lf - %2lf = %2lf", first,second,(first-second));
              break;
          case'/':
@@ -44,9 +45,4 @@ public class Beymart3a
          default:("Invalid Operator");
          break;
      }
-
-
-
-
-
- }
+}
