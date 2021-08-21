@@ -3,6 +3,20 @@ package aqa.core.lesson5.MykhailoOsadtsiv;
 import java.util.Arrays;
 
 public class HomeWork5 {
+
+    public static void main(String[] args) {
+        int[] arr1 = new int[]{1, 2, 5, 2, 4};
+        System.out.println(Arrays.toString(uniqueElements(arr1)));
+        int[] arr2 = new int[]{2, 3, 2, 3};
+        System.out.println(Arrays.toString(uniqueElements(arr2)));
+
+        //* arr1 - [1, 2, 4, 5],  arr2 - [1, 3, 7, 5]
+        // * output array - [2, 3, 4, 7]
+        int[] arr3 = new int[]{1, 2, 4, 5};
+        int[] arr4 = new int[]{1, 3, 7, 5};
+        System.out.println(Arrays.toString(uniqueElementsMergeArray(arr3, arr4)));
+    }
+
     /**
      * Implement the method that returns array of unique elements of input array (filter duplicate elements)
      * <p>
@@ -16,13 +30,6 @@ public class HomeWork5 {
      //* @param arr - array with elements
     // * @return - array with elements that don't have duplicates
      */
-    public static void main(String[] args) {
-        int[] arr1 = new int[]{1, 2, 5, 2, 4};
-        System.out.println(Arrays.toString(uniqueElements(arr1)));
-        int[] arr2 = new int[]{2, 3, 2, 3};
-        System.out.println(Arrays.toString(uniqueElements(arr2)));
-    }
-
     public static int[] uniqueElements(int[] arr) {
         int[] output = new int[arr.length];
         int k = 0;
@@ -69,8 +76,51 @@ public class HomeWork5 {
      * @param arr2 - second input array with unique elements
      * @return array with not common elements from input arrays
      */
-    public int[] uniqueElementsMergeArray(int[] arr1, int[] arr2) {
-        return null;
+    public static int[] uniqueElementsMergeArray(int[] arr1, int[] arr2) {
+        int[] arr3 = new int[arr1.length + arr2.length];
+        int k = 0;
+        for (int value : arr1) {
+            boolean add = true;
+            for (int i : arr2) {
+                if (value == i) {
+                    add = false;
+                    break;
+                }
+            }
+            if (add) {
+                arr3[k] = value;
+                k++;
+            }
+        }
+
+        for (int i = 0; i < arr2.length; i++) {
+            boolean add = true;
+            for (int j = 0; j < arr1.length; j++) {
+                if (arr1[i] == arr2[j]) {
+                    add = false;
+                    break;
+                }
+            }
+            if (add) {
+                arr3[k] = arr2[i];
+                k++;
+            }
+        }
+
+        int index = 0;
+        for (int i = 1; i < arr3.length; i++) {
+            if (arr3[i] == 0) {
+                index = i;
+                break;
+            }
+        }
+        if (index!=0) {
+            int[] output2 = new int[index];
+            System.arraycopy(arr3, 0, output2,  0, output2.length);
+            return output2;
+        } else {
+            return arr3;
+        }
     }
 
     /**
