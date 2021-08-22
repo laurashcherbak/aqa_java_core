@@ -1,4 +1,4 @@
-package aqa.core.lesson4.akylo.lesson4Skrypak;
+package aqa.core.lesson4.lesson4Skrypak;
 
 import java.util.Arrays;
 
