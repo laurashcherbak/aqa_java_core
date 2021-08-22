@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson4.kuchabska;
+package aqa.core.lesson4.kuchabska;
 
 public class Homework4Kuchabska {
     public static void main(String[] args) {
