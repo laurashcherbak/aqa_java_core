@@ -18,9 +18,9 @@ public class Homework3 {
         if(scanner.hasNextInt()){
             num = scanner.nextInt();
         }
-        else if (num == "q"){
-            System.out.println("bye");
-            break; }
+//        else if (num == "q"){
+//            System.out.println("bye");
+//            break; }
         else {
             System.out.println("Вы допустили ошибку при вводе числа. Попробуйте еще раз.");
             scanner.next();
