@@ -4,7 +4,7 @@ Implement linear and binary search inside array (100 elements inside)
 
  */
 
-package aqa.core.lesson4.akylo.LauraShcherbak;
+package aqa.core.lesson4.LauraShcherbak;
 
 import java.io.BufferedReader;
 import java.io.IOException;
