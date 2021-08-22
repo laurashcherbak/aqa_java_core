@@ -17,10 +17,10 @@ public class HomeWork4 {
 
                         int firstIndex = 0;
                         int lastIndex = myArray.length - 1;
-                        int middleIndex = firstIndex + ((lastIndex - firstIndex) / 2);
 
-                        while (firstIndex <= lastIndex) {
 
+                        while (firstIndex < lastIndex) {
+                                int middleIndex = firstIndex + ((lastIndex - firstIndex) / 2);
                                 if (myArray[middleIndex] > x) {
                                         lastIndex = middleIndex -1;
 
