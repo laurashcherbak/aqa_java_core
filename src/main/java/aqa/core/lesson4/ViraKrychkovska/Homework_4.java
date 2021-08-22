@@ -1,7 +1,7 @@
-package main.java.aqa.core.lesson4.akylo.ViraKrychkovska;
+package aqa.core.lesson4.ViraKrychkovska;
 
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.Contract;
+//import org.jetbrains.annotations.NotNull;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -34,20 +34,20 @@ public class Homework_4 {
         return -1;
     }
     // Part 2
-    public static void main(String args[]){
-        Scanner in = new Scanner(System.in);
-        System.out .println("Linear search on array");
-        int number = 100;
-        int[] input = new int[number];
-        System.out.println("The input Array : " + Arrays.toString(number));
-        System.out.printf("Enter numbers", number);
-        for (int i = 0; i < number; i++) {
-            input[i] = in.nextInt();
-        }
-        int result = Arrays.binarySearch(number);
-        if (result < 0)
-            System.out.println("Number is not found in the array!");
-        else
-            System.out.println("Number is found at index: "+result + " in the array.");
-    }
+//    public static void main(String args[]){
+//        Scanner in = new Scanner(System.in);
+//        System.out .println("Linear search on array");
+//        int number = 100;
+//        int[] input = new int[number];
+//        System.out.println("The input Array : " + Arrays.toString(number));
+//        System.out.printf("Enter numbers", number);
+//        for (int i = 0; i < number; i++) {
+//            input[i] = in.nextInt();
+//        }
+//        int result = Arrays.binarySearch(number);
+//        if (result < 0)
+//            System.out.println("Number is not found in the array!");
+//        else
+//            System.out.println("Number is found at index: "+result + " in the array.");
+//    }
 }
