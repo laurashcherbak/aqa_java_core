@@ -16,9 +16,9 @@ public class Beymart3a
  int main(){
      char operator;
      double first, second;
-     System.out.printIn("Enter the Operator (+,-,*,/:");
+     printf("Enter the Operator (+,-,*,/:");
      scanf("%c",&operator);
-     printerf("Enter the two Numbers one by one : ");
+     printf("Enter the two Numbers one by one : ");
      scanf("%lf %lf", &first,&second);
 
      switch (operator);
