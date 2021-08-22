@@ -1,4 +1,4 @@
-package aqa.core.lesson4.akylo.IrynaKrechetova;
+package aqa.core.lesson4.IrynaKrechetova;
 
 public class Lesson4 {
     public static void main (String[] args) {
