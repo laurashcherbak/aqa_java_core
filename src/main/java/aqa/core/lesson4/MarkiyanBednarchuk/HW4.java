@@ -1,6 +1,5 @@
-package aqa.core.lesson4.akylo.MarkiyanBednarchuk;
+package aqa.core.lesson4.MarkiyanBednarchuk;
 import java.util.Arrays;
-import java.util.Random;
 import java.util.Scanner;
 
 public class HW4  {
