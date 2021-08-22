@@ -139,6 +139,7 @@ public class MethodsTask {
      * @param arr - input array
      * @return - sorted array of elements on even positions
      */
+    /*
     public static void main(String[] args) {
 
         int[] myList = {11, 1, 5, 8, 15};
@@ -150,5 +151,5 @@ public class MethodsTask {
                 System.out.print("індекс " + i + " = " + myList[i] + ", ");
             }
         }
-    }
+    }*/
 }
