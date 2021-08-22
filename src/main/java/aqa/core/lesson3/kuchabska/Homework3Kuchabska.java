@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson3.kuchabska;
+package aqa.core.lesson3.kuchabska;
 
 import java.io.BufferedReader;
 import java.io.IOException;
