@@ -213,12 +213,15 @@ public class HomeWork5 {
      */
     public static int[] sortEvenPositionArray(int[] arr) {
         int tmp;
-        for (int k = 0; k < arr.length - 4; k += 2) {
+        boolean isSorted = false;
+        while (!isSorted) {
+            isSorted = true;
             for (int i = 0; i < arr.length -2; i = i+2) {
                 if (arr[i] > arr[i + 2]) {
                 tmp = arr[i];
                 arr[i] = arr[i + 2];
                 arr[i + 2] = tmp;
+                isSorted = false;
                 }
             }
         }
