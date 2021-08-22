@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson3.ViraKrychkovska;
+package aqa.core.lesson3.ViraKrychkovska;
 
 import java.util.Scanner;
 
@@ -10,9 +10,7 @@ public class HomeWork3 {
             }
 
         }
-    }
 
-    {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter first number:");
         int x = in.nextInt();
