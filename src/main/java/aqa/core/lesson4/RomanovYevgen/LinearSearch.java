@@ -1,4 +1,4 @@
-package aqa.core.lesson_4.Romanov.Yevgen;
+package aqa.core.lesson4.RomanovYevgen;
 
 public abstract class LinearSearch {
     public static void main(String[] args) {

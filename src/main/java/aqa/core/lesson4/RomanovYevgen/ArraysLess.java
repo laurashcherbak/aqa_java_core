@@ -1,4 +1,4 @@
-package aqa.core.lesson_4.Romanov.Yevgen;
+package aqa.core.lesson4.RomanovYevgen;
 
 import java.util.Arrays;
 
@@ -8,7 +8,7 @@ public class ArraysLess {
             int numberArray[] = {5,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90,95,100};
             System.out.println("The input array: " + Arrays.toString(numberArray));
 
-            int key = 95;
+            int key = 5;
             System.out.println("\nKey to be searched=" + key);
 
             int first = 0;
