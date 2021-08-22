@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson3.YuliiaAvrakhova;
+package aqa.core.lesson3.YuliiaAvrakhova;
 
 import java.io.BufferedReader;
 import java.io.IOException;

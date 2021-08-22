@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson3.YuliiaAvrakhova;
+package aqa.core.lesson3.YuliiaAvrakhova;
 
 public class Loop {
     public static void main(String[] args) {

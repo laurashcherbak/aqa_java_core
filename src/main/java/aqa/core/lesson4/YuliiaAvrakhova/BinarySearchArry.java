@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson4.YuliiaAvrakhova;
+package aqa.core.lesson4.YuliiaAvrakhova;
 
 public class BinarySearchArry{
     public static int binarySearch(int[] arr, int key){
