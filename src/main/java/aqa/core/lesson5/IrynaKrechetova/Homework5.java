@@ -1,4 +1,4 @@
-package aqa.core.lesson5.akylo.IrynaKrechetova;
+package aqa.core.lesson5.IrynaKrechetova;
 
 import java.util.Arrays;
 
