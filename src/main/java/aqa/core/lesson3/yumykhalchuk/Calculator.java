@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson3.yumykhalchuk;
+package aqa.core.lesson3.yumykhalchuk;
 /*    1.	Write a calculator.
         Stages:
         1 - prompt the user to enter a number
@@ -27,31 +27,32 @@ public class Calculator {
             int pr;
             int div;
             int secondN = Integer.parseInt(reader.readLine());
-            switch (op) {
-                case "+" -> {
-                    sum = firstN + secondN;
-                    System.out.println("Sum of first and second number is: " + " " + sum);
-                }
-                case "-" -> {
-                    sub = firstN - secondN;
-                    System.out.println("Sub of first and second number is: " + " " + sub);
-                }
-                case "*" -> {
-                    pr = firstN * secondN;
-                    System.out.println("Product of first and second number is: " + " " + pr);
-                }
-                case "/" -> {
-                    div = firstN / secondN;
-                    System.out.println("Division of first and second number is: " + " " + div);
-                }
-                default -> System.out.println("I don't know what I want to do");
-            }
-            System.out.println("Do you want to continue your calculation? If not - enter q, if yes - enter other symbol");
-            String ex = reader.readLine();
-            if(ex.equals("q")){
-                break;
-                //System.exit(9);
-            }
+            // Only for java >=14 but we use 8
+//            switch (op) {
+//                case "+" -> {
+//                    sum = firstN + secondN;
+//                    System.out.println("Sum of first and second number is: " + " " + sum);
+//                }
+//                case "-" -> {
+//                    sub = firstN - secondN;
+//                    System.out.println("Sub of first and second number is: " + " " + sub);
+//                }
+//                case "*" -> {
+//                    pr = firstN * secondN;
+//                    System.out.println("Product of first and second number is: " + " " + pr);
+//                }
+//                case "/" -> {
+//                    div = firstN / secondN;
+//                    System.out.println("Division of first and second number is: " + " " + div);
+//                }
+//                default -> System.out.println("I don't know what I want to do");
+//            }
+//            System.out.println("Do you want to continue your calculation? If not - enter q, if yes - enter other symbol");
+//            String ex = reader.readLine();
+//            if(ex.equals("q")){
+//                break;
+//                //System.exit(9);
+//            }
         }
 
     }
