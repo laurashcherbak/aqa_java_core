@@ -1,4 +1,4 @@
-package aqa.core.less4.YRomanov;
+package aqa.core.lesson4.YRomanov;
 import java.util.Arrays;
 public class ArrayLess {
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
-package aqa.core.Lesson4.VlasiukOksana;
+package aqa.core.lesson4.VlasiukOksana;
 
 import java.util.Scanner;
-import java.util.Arrays;
 
 
 public class lesson4vlasiuk {

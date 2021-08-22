@@ -1,4 +1,4 @@
-package aqa.core.less4.YRomanov;
+package aqa.core.lesson4.YRomanov;
 
 public class LinearSearch {
     public static void main(String[] args) {
