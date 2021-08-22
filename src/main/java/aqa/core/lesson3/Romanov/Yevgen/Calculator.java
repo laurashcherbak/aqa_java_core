@@ -3,17 +3,41 @@ package aqa.core.lesson3.Romanov.Yevgen;
 import java.util.Scanner;
 
 public class Calculator {
-    public static void main(String[]args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите первое число:");
-        int a = scanner.nextInt();
-        System.out.println(a + "первое число");
-        System.out.println("Введите второе число");
-        int b = scanner.nextInt();
-        int c = a - b;
-        System.out.println("ответ:" + c);
-        if (c == b) {
-            System.out.println("Ошибка!");
+    public static void main(String[] args) {
+
+        Calculator calculator = new Calculator();
+        calculator.scan();
+        calculator.operation();
+    }
+
+    int num1, num2, result;
+
+    public String scan() {
+        Scanner inputScanner = new Scanner(System.in);
+        System.out.println("Введи первое число:");
+        num1 = inputScanner.nextInt();
+        System.out.println("Введи второе число:");
+        num2 = inputScanner.nextInt();
+        System.out.println("Введите операцию для вычисления:");
+        String operationType = inputScanner.next();
+        return operationType;
+    }
+
+    public void operation() {
+        if (scan().equals("*")) {
+            result = num1 * num2;
+            System.out.println("Твой результат =" + result);
+        } else if (scan().equals("/")) {
+            result = num1 / num2;
+            System.out.println("Твой результат =" + result);
+        } else if (scan().equals("+")) {
+            result = num1 + num2;
+            System.out.println("Твой результат =" + result);
+        } else if (scan().equals("-")) {
+            result = num1 - num2;
+            System.out.println("Твой результат =" + result);
+        } else {
+            System.out.println("Введено некорректное значение");
         }
     }
 }
