@@ -1,5 +1,5 @@
 //sort on even
-package aqa.core.lesson5;
+package aqa.core.lesson5.alun;
 import java.util.*;
 public class hw55 {
     public static void main(String args[]) {

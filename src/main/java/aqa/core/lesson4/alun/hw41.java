@@ -1,4 +1,4 @@
-package aqa.core.lesson4.akylo;
+package aqa.core.lesson4.alun;
 
 import java.util.Scanner;
 import java.util.Arrays;

@@ -1,5 +1,5 @@
 //unique elements
-package aqa.core.lesson5;
+package aqa.core.lesson5.alun;
 import java.util.*;
 
 public class hw52 {

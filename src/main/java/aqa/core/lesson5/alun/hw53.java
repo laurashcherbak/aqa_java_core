@@ -1,5 +1,5 @@
 //intersection
-package aqa.core.lesson5;
+package aqa.core.lesson5.alun;
 import java.util.Arrays;
 public class hw53 {
     public static void main(String args[]) {

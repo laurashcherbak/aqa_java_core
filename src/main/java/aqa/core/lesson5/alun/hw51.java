@@ -1,4 +1,4 @@
-package aqa.core.lesson5;
+package aqa.core.lesson5.alun;
 //unique elements
 import java.util.ArrayList;
 public class hw51 {
