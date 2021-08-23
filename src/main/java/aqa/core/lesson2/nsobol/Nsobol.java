@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 // task № 1
 public class Nsobol {
     public static void main(String[] args) throws IOException {
-    System.out.println("Hello human!");
+        System.out.println("Hello human!");
 
 
         // task № 2
@@ -43,24 +43,24 @@ public class Nsobol {
 
         //Task 5
 
-        int x=10;
-        int y=14;
+        int x = 10;
+        int y = 14;
 
-         System.out.println(x + y);
+        System.out.println(x + y);
 
-         //Task 6
+        //Task 6
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Integer:");
         int input = Integer.parseInt(br.readLine());
-        System.out.println("Value that more than two times =" +(input*2));
+        System.out.println("Value that more than two times =" + (input * 2));
 
         //Task 7
 
-        System.out.println("14/209 + 14 * (29-13*13 + 14/3) = "+(14./209 + 14 * (29-13*13 + 14/3)));
+        System.out.println("14/209 + 14 * (29-13*13 + 14/3) = " + (14. / 209 + 14 * (29 - 13 * 13 + 14 / 3)));
 
         // Task 8
-        System.out.println("((5 + (2 * 3 * 3))/√(7*4*4/(5 + 2*2)) = "+((5 + 2*3*3)/ Math.sqrt((7 * 4 * 4/5 +(2*2) ))) );
+        System.out.println("((5 + (2 * 3 * 3))/√(7*4*4/(5 + 2*2)) = " + ((5 + 2 * 3 * 3) / Math.sqrt((7 * 4 * 4 / 5 + (2 * 2)))));
 
 
     }
