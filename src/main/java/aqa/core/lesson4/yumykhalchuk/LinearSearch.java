@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson4.yumykhalchuk;
+package aqa.core.lesson4.yumykhalchuk;
 /* Implement linear search inside array (100 elements inside)*/
 
 import java.io.BufferedReader;

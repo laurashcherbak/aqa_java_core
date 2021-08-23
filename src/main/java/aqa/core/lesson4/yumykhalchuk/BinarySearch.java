@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson4.yumykhalchuk;
+package aqa.core.lesson4.yumykhalchuk;
 
 import java.io.BufferedReader;
 import java.io.IOException;
