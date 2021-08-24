@@ -8,7 +8,7 @@ public class Rose extends Flower {
     }
 
     public boolean isRed() {
-        return getColor().equalsIgnoreCase("red");
+        return "red".equalsIgnoreCase(getColor());
     }
 
 }
