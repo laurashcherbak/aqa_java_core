@@ -8,6 +8,10 @@ public class Lesson6 {
         System.out.println("Game name: " + worldOfTanks.getName());
         worldOfTanks.setAmountPlayers(4);
         System.out.println("Amount of players: " + worldOfTanks.getAmountPlayers());
+        System.out.println(worldOfTanks.hashCode());
+        Game worldOfTanks1 = new WorldOfTanks("game1", 5, 30);
+        System.out.println(worldOfTanks1.hashCode());
+
         System.out.println("-----------------------------------------");
 
         Game chess = new Chess("game2");
