@@ -27,7 +27,8 @@ public class OOPSamples {
         passengers.add(passenger1);
 
         // put everyone in the car
-         myCar.setPasstngers(passengers
-        );
+         myCar.setPasstngers(passengers);
+
+
     }
 }
