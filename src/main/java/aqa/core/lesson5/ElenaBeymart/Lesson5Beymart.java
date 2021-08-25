@@ -33,21 +33,21 @@ System.out.print("Array after removing : ");
 for (int i=0; i<0; i++)
     System.out.print(a[i] + " ");
     }
-}
-public class MergeArray{
-    public static void main(String[] args){
-        int[] firstArray = {23,45,12,78,4,90,1};
-        int[] secondArray = {77,11,45,88,32,56,3};
-        int fal = firstArray.length;
-        int sal = secondArray.length;
-        int[] result = new int[fal + sal];
-        System.arraycopy(firstArray, 0, result,0, fal);
-        System.arraycopy(secondArray, 0, result, fal, sal);
+//}
+//public class MergeArray{
+//    public static void main(String[] args){
+//        int[] firstArray = {23,45,12,78,4,90,1};
+//        int[] secondArray = {77,11,45,88,32,56,3};
+//        int fal = firstArray.length;
+//        int sal = secondArray.length;
+//        int[] result = new int[fal + sal];
+//        System.arraycopy(firstArray, 0, result,0, fal);
+//        System.arraycopy(secondArray, 0, result, fal, sal);
 //        System.out.printIn(Arrays.toString(result));
-    }
-}
-public class ArraySorter{
-    public static void main(String[] args) {
+//    }
+//}
+//public class ArraySorter{
+//    public static void main(String[] args) {
         Integer[] cubes = new Integer[] {8,27,64,125,256};
 //        System.out.printIn("Integer array before sorting : "
 //                + Arrays.toString(cubes));
@@ -64,14 +64,14 @@ public class ArraySorter{
 //reverse(squeres);
 //System.out.printIn("Sorted array in descending order : "
 //        + Arrays.toString(squares));
-    }
-    public static void reverse(int[] input){
-        int last = input.length - 1;
-        int middle = input.length / 2;
-        for (int i = 0 ; i <= middle; i++){
-            int temp = input[i];
-            input[i] = input[last - i];
-            input[last - i] = temp;
-        }
-    }
+//    }
+//    public static void reverse(int[] input){
+//        int last = input.length - 1;
+//        int middle = input.length / 2;
+//        for (int i = 0 ; i <= middle; i++){
+//            int temp = input[i];
+//            input[i] = input[last - i];
+//            input[last - i] = temp;
+//        }
+//    }
 }
