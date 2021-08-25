@@ -1,4 +1,4 @@
-package aqa.core.lesson6;
+package aqa.core.lesson6.ovlasiuk;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package aqa.core.lesson6;
+package aqa.core.lesson6.ovlasiuk;
 
 public class lesson6 {
     public static void main (String[]args){
