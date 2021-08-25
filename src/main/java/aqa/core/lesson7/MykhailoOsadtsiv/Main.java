@@ -7,7 +7,10 @@ public class Main {
 
         Circle si1 = new Circle("GREEN", 10);
         System.out.println(si1.toString());
-
         System.out.println("Shape area is : " + String.format("%.5f", si1.calcArea()));
+
+        Rectange re1 = new Rectange("RED", 11, 22);
+        System.out.println(re1.toString());
+        System.out.println("Shape area is : " + String.format("%.0f",re1.calcArea()));
     }
 }
