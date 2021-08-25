@@ -1,4 +1,4 @@
-package aqa.core.lesson6;
+package aqa.core.lesson6.lkapusniak;
 
 public class Homework6 {
     public static class Dinosaur {
