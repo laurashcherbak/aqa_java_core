@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson6.yumykhalchuk;
+package aqa.core.lesson6.yumykhalchuk;
 
 public class BookExecution {
     public static void main(String[] args) {

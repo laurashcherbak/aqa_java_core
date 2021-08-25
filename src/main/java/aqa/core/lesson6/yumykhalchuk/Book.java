@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson6.yumykhalchuk;
+package aqa.core.lesson6.yumykhalchuk;
 /*
 implement object Book from Homework 6.xlsx
 The object must have:
