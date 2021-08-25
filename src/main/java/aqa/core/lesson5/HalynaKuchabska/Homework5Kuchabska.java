@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson5.HalynaKuchabska;
+package aqa.core.lesson5.HalynaKuchabska;
 
 import java.util.Arrays;
 
