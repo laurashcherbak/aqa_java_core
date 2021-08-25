@@ -5,7 +5,7 @@ public class Circle extends Shape {
     public String getshapeColor;
 
     public Circle(String shapeColor, double radius) {
-        this(shapeColor);
+        super(shapeColor);
         this.radius = radius;
         this.getshapeColor = shapeColor;
     }

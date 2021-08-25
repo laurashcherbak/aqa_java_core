@@ -1,7 +1,5 @@
 package aqa.core.lesson7.DianaHrymaliuk;
 
-import aqa.core.lesson6.akylo.Car;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("Task 1");
