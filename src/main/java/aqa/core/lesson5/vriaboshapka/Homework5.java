@@ -1,9 +1,10 @@
-package main.java.aqa.core.lesson5.vriaboshapka;
+package aqa.core.lesson5.vriaboshapka;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Homework5 {
+
 
         /**
          * Implement the method that returns array of unique elements of input array (filter duplicate elements)
