@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson5.yumykhalchuk;
+package aqa.core.lesson5.yumykhalchuk;
 
 /*
  * Implement the method that merges two arrays into one. Resulting array should consist of elements that present only in the one array and absent in other

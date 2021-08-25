@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson5.yumykhalchuk;
+package aqa.core.lesson5.yumykhalchuk;
 
 import java.util.Arrays;
 
