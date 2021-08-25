@@ -1,4 +1,4 @@
-package aqa.core.lesson6.akylo.Sikyrynska;
+package aqa.core.lesson6.Sikyrynska;
 import java.util.Objects;
 
 public class Fruit {
