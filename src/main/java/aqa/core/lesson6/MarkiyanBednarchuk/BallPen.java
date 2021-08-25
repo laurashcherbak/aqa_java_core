@@ -1,4 +1,4 @@
-package aqa.core.lesson6.akylo.MarkiyanBednarchuk;
+package aqa.core.lesson6.MarkiyanBednarchuk;
 
 public class BallPen extends Pen{
     private String colour;
