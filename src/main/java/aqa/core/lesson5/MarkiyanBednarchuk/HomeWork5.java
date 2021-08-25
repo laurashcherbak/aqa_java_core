@@ -1,10 +1,9 @@
-package aqa.core.lesson5.akylo.MarkiyanBednarchuk;
+package aqa.core.lesson5.MarkiyanBednarchuk;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class HomeWork5 {
     public static void main(String[] args) {
-        int[] arr1 = {2,4,8,7};
+        int[] arr1 = {2,2,1,1,4,8,7};
         int[] arr2 = {1,3,4,7};
         int[] arr3 = {3, 7, 1, 4, 2};
 
