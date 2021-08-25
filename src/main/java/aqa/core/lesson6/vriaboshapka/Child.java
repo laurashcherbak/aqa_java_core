@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson6.vriaboshapka;
+package aqa.core.lesson6.vriaboshapka;
 
 import java.util.Objects;
 

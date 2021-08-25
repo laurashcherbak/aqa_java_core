@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson6.vriaboshapka;
+package aqa.core.lesson6.vriaboshapka;
 
 public class Homework6 {
     public static void main (String[]args){
