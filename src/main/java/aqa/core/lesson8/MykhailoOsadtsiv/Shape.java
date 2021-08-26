@@ -1,6 +1,6 @@
 package aqa.core.lesson8.MykhailoOsadtsiv;
 
-public class Shape implements Drawable {
+public abstract class Shape implements Drawable {
     private String shapeColor;
 
     public Shape(String shapeColor) {

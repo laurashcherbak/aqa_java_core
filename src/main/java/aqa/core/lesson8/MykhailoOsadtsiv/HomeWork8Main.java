@@ -58,7 +58,7 @@ public class HomeWork8Main {
 
         Arrays.sort(arr3, Shape::compare); //Сортування з абстрактним шейпом не працює, хоть я трісну...
 
-        for (int i = 0; i < arr2.length; i++) {
+        for (int i = 0; i < arr3.length; i++) {
             arr3[i].draw();
         }
     }
