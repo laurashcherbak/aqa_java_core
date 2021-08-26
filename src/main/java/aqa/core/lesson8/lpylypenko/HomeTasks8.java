@@ -31,9 +31,9 @@ public class HomeTasks8 {
         Rectangle rectangle1 = new Rectangle("RED", 11, 22);
         Rectangle rectangle2 = new Rectangle("WHITE", 10, 21);
         int compareResult = rectangle1.compareTo(rectangle2);
-        if (compareResult == 1)  System.out.println("rectangle1 > rectangel2");
-        else if (compareResult == -1)  System.out.println("rectangle1 < rectangel2");
-        else System.out.println("rectangle1 equal rectangel2");
+        if (compareResult == 1)  System.out.println("rectangle1 > rectangle2");
+        else if (compareResult == -1)  System.out.println("rectangle1 < rectangle2");
+        else System.out.println("rectangle1 equal rectangle2");
 
         //Sort rectangles  according to Comparable interface
         Rectangle[] arr2 = new Rectangle[] {
