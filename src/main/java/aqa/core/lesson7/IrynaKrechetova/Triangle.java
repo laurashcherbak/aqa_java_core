@@ -1,6 +1,6 @@
 package aqa.core.lesson7.IrynaKrechetova;
 
-import javafx.scene.shape.TriangleMesh;
+//import javafx.scene.shape.TriangleMesh;
 
 public class Triangle extends Shape {
 

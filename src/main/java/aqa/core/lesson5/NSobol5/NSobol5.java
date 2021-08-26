@@ -51,37 +51,37 @@ public class NSobol5 {
      * @param arr2 - second input array with unique elements
      * @return array with not common elements from input arrays
      */
-    public int[] uniqueElementsMergeArray(int[] arr1, int[] arr2) {
-        int[] result1 = new int[arr1.length + arr2.length];
-        int L1 = 0;
-
-        for (int i = 0; i < arr1.length; i++) {
-            boolean unique = true;
-            for (int j = 0; j < arr2.length; j++) {
-                if (arr1[i] == arr2[j]) unique = false;
-            }
-            if (unique == true) {
-                result1[L1] = arr1[i];
-                L1 = L1 + 1;
-            }
-        }
-
-        for (int j = 0; j < arr2.length; j++) {
-            boolean unique = true;
-            for (int i = 0; i < arr1.length; i++) {
-                if (arr2[j] == arr1[i]) unique = false;
-            }
-            if (unique == true) {
-                result1[N1] = arr2[j];
-                N1 = N1 + 1;
-
-            }
-        }
-        int[] trueResult = new int[N1];
-        System.arraycopy(result1, 0, trueResult, 0, N1);
-
-        return trueResult;
-    }
+//    public int[] uniqueElementsMergeArray(int[] arr1, int[] arr2) {
+//        int[] result1 = new int[arr1.length + arr2.length];
+//        int L1 = 0;
+//
+//        for (int i = 0; i < arr1.length; i++) {
+//            boolean unique = true;
+//            for (int j = 0; j < arr2.length; j++) {
+//                if (arr1[i] == arr2[j]) unique = false;
+//            }
+//            if (unique == true) {
+//                result1[L1] = arr1[i];
+//                L1 = L1 + 1;
+//            }
+//        }
+//
+//        for (int j = 0; j < arr2.length; j++) {
+//            boolean unique = true;
+//            for (int i = 0; i < arr1.length; i++) {
+//                if (arr2[j] == arr1[i]) unique = false;
+//            }
+//            if (unique == true) {
+//                result1[N1] = arr2[j];
+//                N1 = N1 + 1;
+//
+//            }
+//        }
+//        int[] trueResult = new int[N1];
+//        System.arraycopy(result1, 0, trueResult, 0, N1);
+//
+//        return trueResult;
+//    }
 
     /**
      * Implement the method that merges two arrays into one. The resulting array should consist of elements that present in both arrays
@@ -165,4 +165,4 @@ public class NSobol5 {
         return arr;
     }
 }
-}
+

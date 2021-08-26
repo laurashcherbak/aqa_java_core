@@ -1,7 +1,7 @@
 package aqa.core.lesson7.IrynaKrechetova;
 
 public class Main {
-    public static void main() {
+    public static void main(String [] ars) {
         Shape shape1 = new Shape("GREEN");
         System.out.println(shape1.toString());
 
@@ -20,17 +20,13 @@ public class Main {
         System.out.print("Shape area is: ");
         System.out.println(triangle1.calcArea());
 
-        Shape[] arr = new Shape[];
-        arr[0] = new Rectangle("blue", 1,2);
-        arr[1] = new Rectangle("blue", 1,3);
-        arr[2] = new Rectangle("blue", 1,4);
-        arr[3] = new Rectangle("blue", 1, 5);
-        arr[4] = new Rectangle("blue", 1, 6);
+        Shape[] arr = new Shape[]{};
         arr[5] = new Circle("pink", 5);
         arr[6] = new Circle("pink", 6);
         arr[7] = new Triangle("yellow",1,1,1);
         arr[8] = new Triangle("yellow", 2,2,2);
 
+        Triangle tr = new Triangle("", 3, 3,3);
         double sumArea = 0;
         double sumCircleArea = 0;
         double sumRectangleArea = 0;
