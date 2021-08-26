@@ -1,4 +1,4 @@
-package ElenaBeymart;
+package lesson7elenabeymart;
 
 public class Polymorphism {
     public static void main(String[] args) {
