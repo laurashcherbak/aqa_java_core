@@ -31,8 +31,9 @@ public class Main {
         double sumRectangle = 0;
 
         for (Shape x : arr) {
-            System.out.println(arr + " area is: " + x.calcArea());
-            double z = Double.parseDouble(String.valueOf( x.calcArea() ));
+            double z = x.calcArea();
+            System.out.println(x + ", area is: " + z);
+
             if (x instanceof Circle){
                 sumCircle += z;
             }

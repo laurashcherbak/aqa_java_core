@@ -17,6 +17,6 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return super.toString() + " height = " + this.height + ", width = " + this.width ;
+        return super.toString() + ", height = " + this.height + ", width = " + this.width ;
     }
 }
