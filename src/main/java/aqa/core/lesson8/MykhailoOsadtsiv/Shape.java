@@ -1,6 +1,6 @@
 package aqa.core.lesson8.MykhailoOsadtsiv;
 
-public abstract class Shape implements Drawable {
+public class Shape implements Drawable {
     private String shapeColor;
 
     public Shape(String shapeColor) {
@@ -23,5 +23,17 @@ public abstract class Shape implements Drawable {
                 "color is: " + shapeColor;
     }
 
-    public abstract double calcArea();
+    public double calcArea() {
+        return 1;
+    }
+
+    public int compare (Shape obj) {
+        return (this.getShapeColor().compareTo(obj.getShapeColor()));
+    }
+
+    @Override
+    public void draw() {
+        System.out.println(this.toString() +
+                ", area is : " + String.format("%.5f", this.calcArea()));
+    }
 }

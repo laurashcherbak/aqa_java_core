@@ -41,4 +41,9 @@ public class Circle extends Shape implements Comparable {
             return 0;
         } else return -1;
     }
+
+    @Override
+    public int compare (Shape obj) {
+        return (this.getShapeColor().compareTo(obj.getShapeColor()));
+    }
 }

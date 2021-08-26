@@ -43,5 +43,23 @@ public class HomeWork8Main {
             arr2[i].draw();
         }
         System.out.println("//////////////////////////////////////////////");
+
+        Shape[] arr3 = new Shape[10];
+        arr3[6] = new Rectangle("RED", 11, 22);
+        arr3[1] = new Rectangle("GREEN", 12, 23);
+        arr3[7] = new Rectangle("BLACK", 13, 24);
+        arr3[3] = new Rectangle("YELLOW", 14, 25);
+        arr3[4] = new Rectangle("WHITE", 15, 26);
+        arr3[5] = new Circle("BLUE", 4);
+        arr3[0] = new Circle("BROWN", 5);
+        arr3[2] = new Triangle("BROWN", 5, 3, 4);
+        arr3[8] = new Triangle("ROYAL BLUE", 5, 7, 8);
+        arr3[9] = new Triangle("CHILD'S SURPRISE", 6, 4, 6);
+
+        Arrays.sort(arr3, Shape::compare); //Сортування з абстрактним шейпом не працює, хоть я трісну...
+
+        for (int i = 0; i < arr2.length; i++) {
+            arr3[i].draw();
+        }
     }
 }
