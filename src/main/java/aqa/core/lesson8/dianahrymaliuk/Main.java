@@ -1,7 +1,5 @@
 package aqa.core.lesson8.dianahrymaliuk;
 
-import aqa.core.lesson8.akylo.Car;
-
 import java.util.Arrays;
 
 public class Main {

@@ -19,7 +19,7 @@ public abstract class Shape implements Drawable, Comparable{
     public String toString() {
         return "This is Shape, color is: " + this.shapeColor;
     }
-
+    @Override
     public int compareTo(Object o) {
         Shape shape = (Shape)o;
         if(this.calcArea() > shape.calcArea()) {
@@ -29,5 +29,11 @@ public abstract class Shape implements Drawable, Comparable{
             return -1;
         }
         return 0;
+    }
+    @Override
+    public int compareColor(Object o1, Object o2) {
+        Shape shape1 = (Shape)o1;
+        Shape shape2 = (Shape)o2;
+        return shape1.getshapeColor().compareTo(shape2.getshapeColor());
     }
 }
