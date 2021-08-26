@@ -1,6 +1,6 @@
 package aqa.core.lesson8.MykhailoOsadtsiv;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements Comparable {
     private double radius;
 
     public Circle(String color, double radius) {
@@ -29,7 +29,16 @@ public class Circle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println(this.toString());
-        System.out.println("Circle area is : " + String.format("%.5f", this.calcArea()));
+        System.out.println(this.toString() +
+                ", area is : " + String.format("%.5f", this.calcArea()));
+    }
+
+    @Override
+    public int compareTo(Shape obj) {
+        if (this.calcArea() > obj.calcArea()) {
+            return 1;
+        } else if (this.calcArea() == obj.calcArea()) {
+            return 0;
+        } else return -1;
     }
 }

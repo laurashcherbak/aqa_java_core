@@ -1,10 +1,10 @@
 package aqa.core.lesson8.MykhailoOsadtsiv;
 
-public class Rectange extends Shape {
+public class Rectangle extends Shape implements Comparable {
     private double widht;
     private double height;
 
-    public Rectange(String color, double widht, double height) {
+    public Rectangle(String color, double widht, double height) {
         super(color);
         this.widht = widht;
         this.height = height;
@@ -35,12 +35,21 @@ public class Rectange extends Shape {
     public String toString() {
         return "This is Rectange, color: " + getShapeColor() +
                 ", widht=" + String.format("%.0f", widht) +
-                ", height=" + String.format("%.0f",height);
+                ", height=" + String.format("%.0f", height);
     }
 
     @Override
     public void draw() {
-        System.out.println(this.toString());
-        System.out.println("Rectangle area is : " + String.format("%.0f", this.calcArea()));
+        System.out.println(this.toString() +
+        ", area is : " + String.format("%.0f", this.calcArea()));
+    }
+
+    @Override
+    public int compareTo(Shape obj) {
+        if (this.calcArea() > obj.calcArea()) {
+            return 1;
+        } else if (this.calcArea() == obj.calcArea()) {
+            return 0;
+        } else return -1;
     }
 }

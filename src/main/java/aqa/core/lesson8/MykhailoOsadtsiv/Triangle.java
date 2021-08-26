@@ -1,6 +1,6 @@
 package aqa.core.lesson8.MykhailoOsadtsiv;
 
-public class Triangle extends Shape {
+public class Triangle extends Shape implements Comparable {
     private double a, b, c;
 
 
@@ -52,7 +52,16 @@ public class Triangle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println(this.toString());
-        System.out.println("Triangle area is : " + String.format("%.3f", this.calcArea()));
+        System.out.println(this.toString() +
+                ", area is : " + String.format("%.3f", this.calcArea()));
+    }
+
+    @Override
+    public int compareTo(Shape obj) {
+        if (this.calcArea() > obj.calcArea()) {
+            return 1;
+        } else if (this.calcArea() == obj.calcArea()) {
+            return 0;
+        } else return -1;
     }
 }
