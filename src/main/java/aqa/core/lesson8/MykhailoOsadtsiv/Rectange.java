@@ -37,4 +37,10 @@ public class Rectange extends Shape {
                 ", widht=" + String.format("%.0f", widht) +
                 ", height=" + String.format("%.0f",height);
     }
+
+    @Override
+    public void draw() {
+        System.out.println(this.toString());
+        System.out.println("Rectangle area is : " + String.format("%.0f", this.calcArea()));
+    }
 }

@@ -26,4 +26,10 @@ public class Circle extends Shape {
     public double calcArea() {
         return Math.PI * Math.pow(this.radius, 2);
     }
+
+    @Override
+    public void draw() {
+        System.out.println(this.toString());
+        System.out.println("Circle area is : " + String.format("%.5f", this.calcArea()));
+    }
 }

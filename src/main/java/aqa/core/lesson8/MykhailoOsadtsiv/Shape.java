@@ -1,6 +1,6 @@
 package aqa.core.lesson8.MykhailoOsadtsiv;
 
-public abstract class Shape {
+public abstract class Shape implements Drawable {
     private String shapeColor;
 
     public Shape(String shapeColor) {
@@ -24,4 +24,6 @@ public abstract class Shape {
     }
 
     public abstract double calcArea();
+
+    public abstract void draw();
 }

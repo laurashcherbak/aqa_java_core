@@ -49,4 +49,10 @@ public class Triangle extends Shape {
                 ", b=" + String.format("%.0f", b ) +
                 ", c=" + String.format("%.0f", c);
     }
+
+    @Override
+    public void draw() {
+        System.out.println(this.toString());
+        System.out.println("Triangle area is : " + String.format("%.3f", this.calcArea()));
+    }
 }
