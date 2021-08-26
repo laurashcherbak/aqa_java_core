@@ -7,6 +7,9 @@ public class Shape {
 
     public Shape() {
     }
+public double calcArea (){
+        return area ;
+}
 
     public  double calcArea(double area) {
         System.out.println("Area: " + area);
