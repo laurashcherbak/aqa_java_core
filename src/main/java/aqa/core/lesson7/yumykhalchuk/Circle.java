@@ -37,7 +37,7 @@ public class Circle extends Shape{
     @Override
     public double calcArea() {
         double area = PI * radius * radius;
-        return super.calcArea();
+        return area;
     }
 
     @Override

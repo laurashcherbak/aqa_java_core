@@ -55,7 +55,7 @@ public class Shape {
         this.shapeName = shapeName;
     }
     public double calcArea(){
-        return area;
+        return this.area;
 
     }
 

@@ -27,7 +27,7 @@ public class Triangle extends Shape{
         double p;
         p = (a + b + c) / 2;
         double area = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-        return super.calcArea();
+        return area;
     }
 
 

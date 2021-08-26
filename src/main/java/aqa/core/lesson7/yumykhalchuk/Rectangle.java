@@ -22,7 +22,7 @@ public class Rectangle extends Shape{
     @Override
     public double calcArea() {
         double area = width * height;
-        return super.calcArea();
+        return area;
     }
 
 
