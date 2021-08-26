@@ -1,0 +1,21 @@
+package aqa.core.lesson7.les7Skrypak;
+
+public class Rectangle extends Shape{
+    private final double width;
+    private final double height;
+
+    public Rectangle(String shapeColor, double width, double height) {
+        super(shapeColor);
+        this.width = width;
+        this.height = height;
+    }
+    @Override
+    public double calcArea() {
+        double result = width * height;
+        return result;
+    }
+    @Override
+    public String toString() {
+        return "This is Rectangle, color: " + shapeColor + ", width = " + width + ", height = " + height;
+    }
+}
