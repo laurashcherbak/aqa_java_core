@@ -13,4 +13,9 @@ public class Triangle extends Shape {
     public double getArea() {
         return (getHeight() * getWidth()) / 2;
     }
+
+    @Override
+    public String toString() {
+        return "This is a Triangle, color :";
+    }
 }

@@ -5,9 +5,7 @@ public class Shape {
     private double width; //To hold width or base
 
     public Shape() {
-
     }
-
     //Set height and width
     public void setValues(double height, double width) {
         this.height = height;
