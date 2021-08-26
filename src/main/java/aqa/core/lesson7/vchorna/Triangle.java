@@ -13,14 +13,13 @@ public class Triangle extends Shape {
     }
 
     @Override
-    public double callArea() {
+    public double calcArea() {
         double p = (a + b + c) / 2;
-        return Math.pow(p * (p - a) * (p - c) * (p - b));
+        return Math.sqrt( ( p - a ) * p * ( p - c ) * ( p - b ) );
     }
 
     @Override
     public String toString() {
-        String s = super.toString();
-        return s;
+        return super.toString() +  ", a = " + a + ", b = " + b + ", c = " + c;
     }
 }

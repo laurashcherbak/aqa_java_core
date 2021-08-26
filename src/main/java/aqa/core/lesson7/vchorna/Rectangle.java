@@ -11,12 +11,12 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    public double callArea() {
+    public double calcArea() {
         return height * width;
     }
 
     @Override
     public String toString() {
-        return "This is Rectangle, color: " + "height = " + this.height + ", width =" + this.width ;
+        return super.toString() + " height = " + this.height + ", width = " + this.width ;
     }
 }

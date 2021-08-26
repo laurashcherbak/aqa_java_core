@@ -25,18 +25,27 @@ public class Main {
                 new Rectangle("Purple", 14, 18),
                 new Rectangle("Purple", 11, 22)
         };
-        double sumArea = 0.0;
-        double sumCircle = 0.0;
-        double sumTriangle = 0.0;
-        double sumRectangle = 0.0;
-        int i = 0;
-        for (int i = 0, arrLength = arr.length; i < arrLength; i++) {
-            Shape variant = arr[i];
-            System.out.println(variant + " area is: " + variant.calcArea());
+
+        double sumCircle = 0;
+        double sumTriangle = 0;
+        double sumRectangle = 0;
+
+        for (Shape x : arr) {
+            System.out.println(arr + " area is: " + x.calcArea());
+            double z = Double.parseDouble(String.valueOf( x.calcArea() ));
+            if (x instanceof Circle){
+                sumCircle += z;
+            }
+            if (x instanceof Rectangle) {
+                sumRectangle += z;
+            }
+            if (x instanceof Triangle) {
+                sumTriangle += z;
+            }
         }
-        if (arr[i] instanceof Circle) sumCircle += arr[i].callArea();
-            if (arr[i] instanceof Rectangle) sumRectangle = (double) (sumRectangle + arr[i].calcArea ());
-            if (arr[i] instanceof Triangle) sumTriangle = (double) (sumTriangle + arr[i].calcArea());
+        System.out.println("Total area Circle is " + sumCircle);
+        System.out.println("Total area Triangle is " + sumTriangle);
+        System.out.println("Total area Rectangle is " + sumRectangle);
     }
 }
 

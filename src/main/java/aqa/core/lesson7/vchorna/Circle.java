@@ -9,13 +9,12 @@ public class Circle extends Shape {
     }
 
     @Override
-    public Object calcArea() {
-        double v = Math.PI * Math.pow(radius, 2);
-        return v;
+    public double calcArea() {
+        return Math.PI * Math.pow(radius, 2);
     }
 
     @Override
     public String toString() {
-        return " This is Circle, color is: " + " radius = " + radius;
+        return super.toString() + " radius = " + radius;
     }
 }
