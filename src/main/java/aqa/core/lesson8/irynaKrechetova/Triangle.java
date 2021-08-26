@@ -1,4 +1,4 @@
-package aqa.core.lesson7.IrynaKrechetova;
+package aqa.core.lesson8.irynaKrechetova;
 
 //import javafx.scene.shape.TriangleMesh;
 
@@ -23,5 +23,10 @@ public class Triangle extends Shape {
         this.a = a;
         this.b = b;
         this.c = c;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println(this.toString() + ", area is: " + this.calcArea());
     }
 }

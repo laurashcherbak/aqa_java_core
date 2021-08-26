@@ -1,12 +1,10 @@
-package aqa.core.lesson7.IrynaKrechetova;
+package aqa.core.lesson8.irynaKrechetova;
 
-public class Shape {
+abstract class Shape implements Drawable {
     public Shape() {
     }
 
-    public double calcArea() {
-        return 0.0;
-    }
+    abstract double calcArea();
 
     private String shapeColor;
 

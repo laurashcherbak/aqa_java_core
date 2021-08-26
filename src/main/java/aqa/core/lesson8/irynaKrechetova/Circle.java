@@ -1,4 +1,4 @@
-package aqa.core.lesson7.IrynaKrechetova;
+package aqa.core.lesson8.irynaKrechetova;
 
 public class Circle extends Shape {
 
@@ -17,5 +17,10 @@ public class Circle extends Shape {
     public Circle(String shapeColor, double radius) {
         super(shapeColor);
         this.radius = radius;
+    }
+
+    @Override
+    public void draw() {
+        System.out.println(this.toString() + ", area is: " + this.calcArea());
     }
 }
