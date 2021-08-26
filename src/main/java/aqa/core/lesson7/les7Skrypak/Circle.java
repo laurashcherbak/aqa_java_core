@@ -15,12 +15,11 @@ public class Circle extends Shape {
     }
     @Override
     public double calcArea() {
-        double result = pi * radius * radius;
-        return result;
+        return pi * radius * radius;
     }
     @Override
     public String toString() {
-        return "This is " + shapeName + " color is " + shapeColor + ", radius=" + radius;
+        return "This is " + getShapeName() + " color is " + getShapeColor() + ", radius=" + getRadius();
     }
 
 

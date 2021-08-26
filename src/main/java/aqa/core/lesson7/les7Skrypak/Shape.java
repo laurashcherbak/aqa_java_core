@@ -2,8 +2,8 @@ package aqa.core.lesson7.les7Skrypak;
 
 public class Shape {
     //fields. Instance variable
-    private String shapeColor;
-    private String shapeName;
+    private final String shapeColor;
+    private final String shapeName;
 
     //constructor
     public Shape(String shapeColor, String shapeName) {
@@ -11,7 +11,7 @@ public class Shape {
         this.shapeName = shapeName;
     }
 
-    //incapsulation
+    //Encapsulation
     public String getShapeColor() {
         return shapeColor;
     }
@@ -21,12 +21,11 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "This is " + shapeName + " color is " + shapeColor;
+        return "This is " + getShapeName() + " color is " + getShapeColor();
     }
 
     public double calcArea() {
-        double result = 0.0;
-        return result;
+        return 0.0;
     }
 
 }

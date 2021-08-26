@@ -4,18 +4,17 @@ public class Rectangle extends Shape{
     private final double width;
     private final double height;
 
-    public Rectangle(String shapeColor, double width, double height) {
-        super(shapeColor);
+    public Rectangle(String ShapeColor, double width, double height) {
+        super(ShapeColor);
         this.width = width;
         this.height = height;
     }
     @Override
     public double calcArea() {
-        double result = width * height;
-        return result;
+        return width * height;
     }
     @Override
     public String toString() {
-        return "This is Rectangle, color: " + shapeColor + ", width = " + width + ", height = " + height;
+        return "This is Rectangle, color: " + super.getShapeColor() + ", width = " + width + ", height = " + height;
     }
 }

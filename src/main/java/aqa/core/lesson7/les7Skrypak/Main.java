@@ -16,15 +16,15 @@ public class Main {
         System.out.println("Triangle area is: " + triangleA.calcArea());
 
         Shape[] arrFigures = new Shape[] {
-                new Rectangle1("neon", 4.5, 8.7);
-                new Rectangle2("blue", 9.8, 8.7);
-                new Rectangle3("pink", 3.5, 1.7);
-                new Rectangle4("milk", 2.5, 5.7);
-                new Rectangle5("coral", 6.9, 6.6);
-                new Circle1("white", 88);
-                new Circle2("milky", 3);
-                new Triangle1("magenta", 4, 5, 6);
-                new Triangle2("magenta", 6, 8, 9);
+                new Rectangle("neon", 4.5, 8.7),
+                new Rectangle("blue", 9.8, 8.7),
+                new Rectangle("pink", 3.5, 1.7),
+                new Rectangle("milk", 2.5, 5.7),
+                new Rectangle("coral", 6.9, 6.6),
+                new Circle("John", "yellow", 88),
+                new Circle("Minnie", "milky", 3),
+                new Triangle("magenta", "Lola", 4, 5, 6),
+                new Triangle("yellow", "Bob", 4, 5, 6)
         }
         for (Shape z: arrFigures) {
             System.out.println(z.toString() + " , area is" + z.calkArea());
