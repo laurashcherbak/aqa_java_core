@@ -1,4 +1,4 @@
-package aqa.core.lesson6.akylo.IrynaKrechetova;
+package aqa.core.lesson6.IrynaKrechetova;
 
 
 public class Town {

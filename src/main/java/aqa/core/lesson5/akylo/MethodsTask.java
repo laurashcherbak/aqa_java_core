@@ -16,8 +16,7 @@ public class MethodsTask {
      * @param arr - array with elements
      * @return - array with elements that don't have duplicates
      */
-    public int[] uniqueElements(int[] arr)
-    {
+    public int[] uniqueElements(int[] arr) {
         return null;
     }
 
