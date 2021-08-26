@@ -16,6 +16,7 @@ public class HomeTasks8 {
                 new Rectangle("BLACK", 12, 24),
                 new Rectangle("GREEN", 13, 15),
                 new Rectangle("BLUE", 17, 30),
+                new Rectangle("YELLOW", 5, 6),
                 new Circle("GREEN", 8),
                 new Circle("RED", 10),
                 new Triangle("BLACK", 5, 5, 5),
