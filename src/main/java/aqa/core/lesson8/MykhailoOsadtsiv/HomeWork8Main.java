@@ -61,5 +61,8 @@ public class HomeWork8Main {
         for (int i = 0; i < arr3.length; i++) {
             arr3[i].draw();
         }
+
+        System.out.println("//////////////////////////");
+        System.out.println(Kata.reverseWords("reverse words"));
     }
 }
