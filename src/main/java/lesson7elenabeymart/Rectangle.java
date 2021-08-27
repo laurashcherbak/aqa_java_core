@@ -12,9 +12,9 @@ public class Rectangle extends Shape {
     //Calculate and return area of triangle
     public double getArea() {
         return (getHeight() * getWidth()) / 2;
-    }
-    @Override
+    }@Override
     public String toString() {
         return "This is a Rectangle, color :";
+
     }
 }
