@@ -7,6 +7,10 @@ abstract class Shape implements Drawable, Comparable<Shape> {
         this.shapeColor = shapeColor;
     }
 
+    public String getShapeColor() {
+        return shapeColor;
+    }
+
     @Override
     public void draw() {
         System.out.println(this + ", area is: " + calcArea());
@@ -14,20 +18,16 @@ abstract class Shape implements Drawable, Comparable<Shape> {
 
     @Override
     public int compareTo(Shape other) {
-        /*
-        0 - однакові
-        -1 - this < other
-        1 - this > other
-         */
         double thisArea = calcArea();
         double otherArea = other.calcArea();
-        if (thisArea == otherArea) {
+
+        if (thisArea > otherArea) {
+            return 1;
+        } else if (thisArea < otherArea) {
+            return -1;
+        } else {
             return 0;
         }
-        if (thisArea < otherArea) {
-            return -1;
-        }
-        return 1;
     }
 
     @Override
