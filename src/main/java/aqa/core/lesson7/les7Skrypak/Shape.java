@@ -24,8 +24,8 @@ public class Shape {
         return "This is " + getShapeName() + " color is " + getShapeColor();
     }
 
-    public double calcArea() {
-        return 0.0;
+    public double calcArea () {
+        return (0.0);
     }
 
 }

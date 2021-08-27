@@ -15,7 +15,7 @@ public class Main {
         System.out.println(triangleA);
         System.out.println("Triangle area is: " + triangleA.calcArea());
 
-        Shape[] arrFigures = new Shape[] {
+        Shape[] arrFigures = {
                 new Rectangle("neon", 4.5, 8.7),
                 new Rectangle("blue", 9.8, 8.7),
                 new Rectangle("pink", 3.5, 1.7),
@@ -25,11 +25,36 @@ public class Main {
                 new Circle("Minnie", "milky", 3),
                 new Triangle("magenta", "Lola", 4, 5, 6),
                 new Triangle("yellow", "Bob", 4, 5, 6)
+        };
+        for (Shape x : arrFigures) {
+            System.out.println(x.toString() + " , area is" + x.calkArea());
         }
-        for (Shape z: arrFigures) {
-            System.out.println(z.toString() + " , area is" + z.calkArea());
+        double sumArea = 0.0;
+        for(Shape x : arrFigures) {
+            sumArea += x.calcArea();
         }
+        System.out.println("Total: " + sumArea);
 
+        double sumRectangleArea = 0.0;
+        for(Shape x : arrFigures) {
+            if (x instanceof Rectangle)
+                sumRectangleArea += x.calcArea();
+        }
+        System.out.println("Rectangles total area: " + sumRectangleArea);
+
+        double sumTriangleArea = 0.0;
+        for(Shape x : arrFigures) {
+            if (x instanceof Triangle)
+                sumTriangleArea += x.calcArea();
+        }
+        System.out.println("Triangle total area: " + sumTriangleArea);
+
+        double sumCircleArea = 0.0;
+        for(Shape x : arrFigures) {
+            if (x instanceof Circle)
+                sumCircleArea += x.calcArea();
+        }
+        System.out.println("Circle total area: " + sumCircleArea);
 
     }
 }
