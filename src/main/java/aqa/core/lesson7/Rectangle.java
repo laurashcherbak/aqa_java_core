@@ -20,4 +20,7 @@ public class Rectangle extends Shape {
     public String toString() {
         return super.toString() + ", width=" + this.width + ", height=" + this.height;
     }
+
+    public boolean compareTo(Rectangle rectangle2) {
+    }
 }
