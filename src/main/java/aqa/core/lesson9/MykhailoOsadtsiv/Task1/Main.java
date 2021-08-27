@@ -1,4 +1,4 @@
-package aqa.core.lesson9.MykhailoOsadtsiv;
+package aqa.core.lesson9.MykhailoOsadtsiv.Task1;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,12 +7,6 @@ public class Main {
         System.out.println(myStr.lastIndexOf("b"));
         System.out.println(myStr.substring(3, 6));
         System.out.println(reverseString("abcd"));
-        System.out.println("//////////////////////////////////////");
-
-        String myStr1 = "Cartoon";
-        String myStr2 = "Tomcat";
-
-        firstNotSecond(myStr1, myStr2);
     }
 
     public static String reverseString (String input) {
@@ -21,13 +15,5 @@ public class Main {
             output += input.charAt(i);
         }
         return output;
-    }
-
-    public static void firstNotSecond (String word1, String word2) {
-        for (int i = word1.length() - 1; i >= 0; i--) {  //порядок виводу в завданні не вказаний
-            if (word2.indexOf(word1.charAt(i)) == -1) {
-                System.out.println(word1.charAt(i));
-            }
-        }
     }
 }
