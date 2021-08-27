@@ -1,4 +1,4 @@
-package aqa.core.lesson9.MykhailoOsadtsiv.Exceptions;
+package aqa.core.lesson9.MykhailoOsadtsiv.alishev;
 
 public class ScannerException extends Exception {
     public ScannerException (String description) {

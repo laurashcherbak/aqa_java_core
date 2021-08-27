@@ -1,4 +1,4 @@
-package aqa.core.lesson9.MykhailoOsadtsiv.Exceptions;
+package aqa.core.lesson9.MykhailoOsadtsiv.alishev;
 
 import java.io.IOException;
 import java.text.ParseException;
