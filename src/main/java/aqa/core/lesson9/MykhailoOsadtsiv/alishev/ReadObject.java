@@ -8,9 +8,9 @@ import java.util.Arrays;
 
 public class ReadObject {
     public static void main(String[] args) {
-        try {
-            FileInputStream fis = new FileInputStream("src/main/java/aqa/core/lesson9/MykhailoOsadtsiv/Resources/people.bin");
-            ObjectInputStream ois = new ObjectInputStream(fis);
+       try {
+           FileInputStream fis = new FileInputStream("src/main/java/aqa/core/lesson9/MykhailoOsadtsiv/Resources/people.bin");
+           ObjectInputStream ois = new ObjectInputStream(fis);
 
             //1   Person person3 = (Person) ois.readObject();
             //1  Person person4 = (Person) ois.readObject();

@@ -3,8 +3,10 @@ package aqa.core.lesson9.MykhailoOsadtsiv.alishev;
 import java.io.Serializable;
 
 public class Person implements Serializable {
+ //   private static final long serialVersionUID = -3496793561747124575L;  //для файлів на тривалому зберіганні на випадок змін у структурі класу
+
     private int id;
-    private String name;
+    private transient String name;  //transient ==  !Serializable for field
 
     public Person(int id, String name) {
         this.id = id;
