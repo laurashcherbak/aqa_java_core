@@ -1,5 +1,7 @@
 package aqa.core.lesson9.lpylypenko;
 
+import java.util.Locale;
+
 public class HomeTasks9 {
 
     public static void main(String[] args) {
@@ -12,6 +14,7 @@ public class HomeTasks9 {
         System.out.println("Reverse string for myStr = " + reverseString(myStr));
 
         System.out.println("\nTask2");
+        //Probably need use toLowerCase method to fix the register, but it was not mentioned in task
         String myStr1 = "Cartoon";
         String myStr2 = "Tomcat";
         System.out.println("myStr1 = " + myStr1);
@@ -23,7 +26,7 @@ public class HomeTasks9 {
         }
         System.out.println("Letetrs which are present im myStr1, but absent in myStr2 = " + strRez.toString());
 
-        System.out.println("\nTask2");
+        System.out.println("\nTask3");
         System.out.print("Unique chars from “Using methods of class String” = ");
         System.out.print(uniqueChars("Using methods of class String"));
 
