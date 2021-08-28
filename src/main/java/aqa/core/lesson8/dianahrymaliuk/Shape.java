@@ -11,10 +11,6 @@ public abstract class Shape implements Drawable, Comparable{
         return 0;
     }
 
-//    {
-//        return this.calcArea();
-//    }
-
     public Shape (String shapeColor){
         this.shapeColor=shapeColor;
     }
