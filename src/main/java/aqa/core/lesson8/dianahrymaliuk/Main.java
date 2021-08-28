@@ -34,7 +34,20 @@ public class Main {
             System.out.println(rectangle);
         }
         System.out.println("\nTask 4");
-
+        Shape[] arr3 = {
+                new Rectangle("Purple", 7, 12),
+                new Rectangle("Purple", 3, 11),
+                new Rectangle("Purple", 4, 13),
+                new Circle("Pink", 15),
+                new Circle("Pink", 10),
+                new Circle("Pink", 11),
+                new Triangle("White",5,5,5),
+                new Triangle("White", 7,10,12),
+                new Triangle("White", 10, 7, 6)};
+                Arrays.sort(arr3);
+        for(Shape i: arr3); {
+            System.out.println(Arrays.toString(arr3)); //Воно сортує по кольору, але результат (весь масив об"єктів) прописує в стрічку.
+        }
 
 //        Shape shape = new Shape("red");
 //        System.out.println(shape);

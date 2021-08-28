@@ -1,6 +1,6 @@
 package aqa.core.lesson8.dianahrymaliuk;
 
-public class Circle extends Shape{
+public class Circle extends Shape implements Comparable{
     private double area;
     public String getshapeColor;
 
@@ -38,6 +38,11 @@ public class Circle extends Shape{
 
     @Override
     public void draw() {
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
     }
 }
 

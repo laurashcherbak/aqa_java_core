@@ -8,6 +8,7 @@ public class Rectangle extends Circle {
         this.getshapeColor = shapeColor;
 
     }
+
     private double width;
     private double height;
 
@@ -16,6 +17,18 @@ public class Rectangle extends Circle {
         calcArea = this.height*this.width;;
         return this.calcArea;
     }
+    @Override
+    public int compareTo(Object o) {
+        Shape shape = (Shape)o;
+        if(this.calcArea() > shape.calcArea()) {
+            return 1;
+        }
+        if(this.calcArea() < shape.calcArea()) {
+            return -1;
+        }
+        return 0;
+    }
+
     @Override
     public String toString() {
         return "This is Rectangle, color is: " + this.getshapeColor + ". width= " + this.width + ". height= " + this.height + ". Shape area is: " + this.calcArea();
