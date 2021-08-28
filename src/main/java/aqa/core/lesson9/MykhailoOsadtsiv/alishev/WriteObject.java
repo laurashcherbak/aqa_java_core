@@ -17,11 +17,12 @@ public class WriteObject {
 
       //1      oos.writeObject(person1);
       //1      oos.writeObject(person2);
-            oos.writeInt(people.length);
+    //2        oos.writeInt(people.length);
 
-            for (Person person : people) {
-                oos.writeObject(person);
-            }
+    //2        for (Person person : people) {
+    //2            oos.writeObject(person);
+   // 2        }
+            oos.writeObject(people);
 
             oos.close();
 

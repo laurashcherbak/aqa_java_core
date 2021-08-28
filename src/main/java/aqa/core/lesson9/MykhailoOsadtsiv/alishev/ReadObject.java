@@ -15,12 +15,13 @@ public class ReadObject {
             //1   Person person3 = (Person) ois.readObject();
             //1  Person person4 = (Person) ois.readObject();
 
-            int personCount = ois.readInt();
-            Person[] people = new Person[personCount];
+      //2      int personCount = ois.readInt();
+      //2      Person[] people = new Person[personCount];
 
-            for (int i = 0; i < personCount; i++) {
-                people[i] = (Person) ois.readObject();
-            }
+      //2      for (int i = 0; i < personCount; i++) {
+      //2          people[i] = (Person) ois.readObject();
+      //2      }
+            Person[] people = (Person[]) ois.readObject();
 
             System.out.println(Arrays.toString(people));
 
