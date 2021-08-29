@@ -2,7 +2,7 @@ package aqa.core.lesson9.dianahrymaliuk;
 
 
 
-public class Task3 extends Task2 {
+public class Task3 {
     public static void main (String [] args) {
         System.out.println(uniqueChars("Using methods of class String"));
     }
