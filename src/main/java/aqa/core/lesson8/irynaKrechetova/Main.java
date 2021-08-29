@@ -1,4 +1,6 @@
 package aqa.core.lesson8.irynaKrechetova;
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class Main {
     public static void main(String [] ars) {
@@ -73,7 +75,33 @@ public class Main {
         System.out.println(sumRectangleArea);
 
         for (Shape x : arr) {x.draw();}
+
+        Rectangle[] rectangles1 = {new Rectangle("red", 2 ,2 ), new Rectangle("red", 3, 3), new Rectangle("white", 1, 2),
+        new Rectangle("white", 1, 2), new Rectangle("blue", 4,3), new Rectangle("pink", 1, 1)};
+        Arrays.sort(rectangles1);
+
+        System.out.println(Arrays.toString(rectangles1));
+
+
+        Shape[] shapesArr = {new Rectangle("orange", 1, 1), new Rectangle("pink", 1, 2), new Rectangle("white", 1,3),
+        new Circle("white", 3), new Circle("black", 4), new Circle("red", 5), new Circle("blue", 2),
+        new Triangle("dark blue", 1, 1, 1), new Triangle("gray", 2, 3, 4), new Triangle("bordo", 3, 3, 3)};
+
+        Comparator<Shape> compareByColor = new Comparator<Shape>() {
+            public int compare(Shape o1, Shape o2) {
+                return o1.getShapeColor().compareTo(o2.getShapeColor());
+            }
+
+        };
+
+        Arrays.sort(shapesArr, compareByColor);
+
+        for(Shape o : shapesArr) {
+            System.out.println(o.toString());
         }
+
+        }
+
 
     }
 

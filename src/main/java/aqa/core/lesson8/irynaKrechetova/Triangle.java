@@ -2,7 +2,7 @@ package aqa.core.lesson8.irynaKrechetova;
 
 //import javafx.scene.shape.TriangleMesh;
 
-public class Triangle extends Shape {
+public class Triangle extends Shape implements Comparable {
 
     private double a;
     private double b;
@@ -28,5 +28,13 @@ public class Triangle extends Shape {
     @Override
     public void draw() {
         System.out.println(this.toString() + ", area is: " + this.calcArea());
+    }
+
+    @Override
+    public int compareTo(Object o) {
+       Triangle triangle = (Triangle) o;
+        if (this.calcArea()>triangle.calcArea()) return 1;
+        if (this.calcArea()<triangle.calcArea()) return -1;
+        return 0;
     }
 }
