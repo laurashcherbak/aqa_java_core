@@ -2,7 +2,7 @@ package aqa.core.lesson7;
 
     //Task1
 
-public abstract class Shape {
+public class Shape {
 
     protected String shapeColor;
     protected String name;
@@ -22,11 +22,6 @@ public abstract class Shape {
     @Override
     public String toString() {
         return "This is " + this.name + ", color is: " + this.shapeColor;
-    }
-
-    public abstract String getColor();
-
-    public void draw() {
     }
 }
 
