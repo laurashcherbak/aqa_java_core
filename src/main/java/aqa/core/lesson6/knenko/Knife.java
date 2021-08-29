@@ -24,6 +24,9 @@ public class Knife extends Weapon{
     public void showWeight(){
         System.out.println(this.weight);
     }
+
+
 }
+
 
 

@@ -14,8 +14,11 @@ public class Weapon {
         this.material = material;
     }
 
+    public int getRadiusOfDefeat() {
+    return radiusOfDefeat;
+}
 
-    @Override
+
     public String toString() {
         return "This Weapon has:\n1) radiusOfDefeat = " + radiusOfDefeat + " \n2) degreeOfDamage = " + degreeOfDamage + " \n3) material = " + material;
     }
@@ -31,7 +34,14 @@ public class Weapon {
         }
         return true;
     }
+    @Override
+    public int hashCode() {
+        return Objects.hash(this.toString());
+    }
+
 }
+
+
 
 
 

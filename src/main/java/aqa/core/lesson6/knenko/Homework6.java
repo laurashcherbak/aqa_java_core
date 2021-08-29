@@ -14,8 +14,12 @@ public class Homework6 {
         System.out.println(weapon1);
         System.out.println(weapon2);
         System.out.println(weapon3);
+        System.out.println(weapon1.hashCode());
+        System.out.println(weapon2.hashCode());
+        System.out.println(weapon3.hashCode());
 
         System.out.println(rifle1);
+        System.out.println(rifle1.hashCode());
         System.out.println("Rifle is made of: ");
         rifle1.showMaterial();
         System.out.println("The number of bullets is: "+ rifle1.getCountOfBullets());
@@ -25,6 +29,7 @@ public class Homework6 {
         rifle1.showRadiusOfDefeat();
 
         System.out.println(knife1);
+        System.out.println(knife1.hashCode());
         System.out.println("The length of the knife is:");
         knife1.showLength();
         System.out.println("The weight of the knife is:");
