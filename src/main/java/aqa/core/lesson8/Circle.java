@@ -1,45 +1,20 @@
 package aqa.core.lesson8;
 
-import java.util.Comparator;
-
-public class Circle extends Shape implements Comparable {
+public class Circle extends Shape {
     private double radius;
-    public String shapeColor;
-    static String shapeName="Circle";
 
-    Circle (double radius, String shapeColor){
-        this. radius = radius;
-        this.shapeColor=shapeColor;
-    }
-
-    @Override
-    public String toString() {
-        return "This is Circle, color is: "+ this.shapeColor + " radius: "+this.radius;
-
+    public Circle(String shapeColor, double radius) {
+        super(shapeColor);
+        this.radius = radius;
     }
 
     @Override
     public double calcArea() {
-        double val = Math.PI * radius*2;
-        return val;
+        return Math.PI * Math.pow(radius, 2);
     }
 
     @Override
-    public String getColor() {
-        return this.shapeColor;
+    public String toString() {
+        return super.toString() + ", radius = " + radius;
     }
-
-    @Override
-    public void draw() {
-        System.out.println(this+ " Area: "+this.calcArea());
-    }
-
-    @Override
-    public int compareTo(Object o) {
-        Circle other=(Circle)o;
-        if (this.calcArea()> other.calcArea()) return 1;
-        if (this.calcArea()< other.calcArea()) return -1;
-        return 0;
-    }
-
 }
