@@ -17,10 +17,17 @@ public class Main {
         }
 
         try {
-            throw new MyException("problem ");
+            throw new MyException("Task2: problem ");
 
         } catch (MyException e) {
             e.printStackTrace();
+            e.print();
+        }
+
+        try {
+            MyTest test = new MyTest();
+            test.test();
+        } catch (MyException e) {
             e.print();
         }
     }

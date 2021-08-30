@@ -7,6 +7,6 @@ public class MyException extends Exception {
     }
 
     public void print() {
-        System.out.println("Task2: " + getMessage());
+        System.out.println(getMessage());
     }
 }
