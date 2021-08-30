@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson7.virakrychkovska;
+package aqa.core.lesson7.virakrychkovska;
 
 public class Shape {
     private String shapeColor;
