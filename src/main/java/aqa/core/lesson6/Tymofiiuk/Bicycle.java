@@ -1,4 +1,4 @@
-package aqa.core.lesson6;
+package aqa.core.lesson6.Tymofiiuk;
 import java.util.Objects;
 
 public class Bicycle {

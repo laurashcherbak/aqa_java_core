@@ -1,4 +1,4 @@
-package aqa.core.lesson6;
+package aqa.core.lesson6.Tymofiiuk;
 
 public class Tymofiiuk {
     public static void main(String[] args) {
