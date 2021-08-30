@@ -18,7 +18,7 @@ public class Circle {
 
     @Override
     public String toString() {
-        return "The Circle color %s, radius=%s".formatted(toString(), radius);
+        return "The Circle color %s, radius=%s".format(toString(), radius);
     }
 
 }
