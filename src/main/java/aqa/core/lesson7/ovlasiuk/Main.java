@@ -1,4 +1,4 @@
-package aqa.core.lesson7;
+package aqa.core.lesson7.ovlasiuk;
 
 //Task5
 public class Main {
