@@ -1,4 +1,4 @@
-package aqa.core.lesson6.sikyrynska7;
+package aqa.core.lesson7.sikyrynska7;
 
 public class lesson7 {
     public static void main(String[] args) {
