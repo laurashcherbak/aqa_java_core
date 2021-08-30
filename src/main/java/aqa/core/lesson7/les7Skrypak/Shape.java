@@ -2,13 +2,17 @@ package aqa.core.lesson7.les7Skrypak;
 
 public class Shape {
     //fields. Instance variable
-    private final String shapeColor;
-    private final String shapeName;
+    private String shapeColor;
+    private String shapeName;
 
     //constructor
     public Shape(String shapeColor, String shapeName) {
         this.shapeColor = shapeColor;
         this.shapeName = shapeName;
+    }
+
+    public Shape(String shapeColor) {
+        this.shapeColor = shapeColor;
     }
 
     //Encapsulation

@@ -27,7 +27,7 @@ public class Main {
                 new Triangle("yellow", "Bob", 4, 5, 6)
         };
         for (Shape x : arrFigures) {
-            System.out.println(x.toString() + " , area is" + x.calkArea());
+            System.out.println(x.toString() + " , area is" + x.calcArea());
         }
         double sumArea = 0.0;
         for(Shape x : arrFigures) {
