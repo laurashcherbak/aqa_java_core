@@ -11,7 +11,7 @@ public class ExceptionDemo {
             Person person2 = new Person();
             person2.setAge(200);
         }
-        catch (Exception e) {
+        catch (InvalidAgeException e) {
             System.out.println(e);
         }
     }
