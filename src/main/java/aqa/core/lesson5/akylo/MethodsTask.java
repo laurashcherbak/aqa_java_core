@@ -73,7 +73,7 @@ public class MethodsTask {
      * output array - [1, 7, 2, 4, 3]
      *
      * @param arr - input array
-     * @return - sorted array of elements on even positions
+     * @return - sorted array of elements on  even positions
      */
     public int[] sortEvenPositionArray(int[] arr) {
         return null;

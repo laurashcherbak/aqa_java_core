@@ -12,7 +12,7 @@ public class Calculate {
 
         System.out.println("");
 
-        Drawable r = new Rectangle("red", 11, 22);
+        Drawable r = new Rectangle(1, "red", 11, 22);
         System.out.println(r);
         r.draw();
 
