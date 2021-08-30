@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson7.HalynaKuchabska;
+package aqa.core.lesson7.HalynaKuchabska;
 
 public class Rectangle extends Shape {
     private double width;
