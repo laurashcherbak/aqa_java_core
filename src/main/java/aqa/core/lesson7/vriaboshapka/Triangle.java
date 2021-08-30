@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson7.vriaboshapka;
+package aqa.core.lesson7.vriaboshapka;
 
 public class Triangle extends Shape {
     private double a;
