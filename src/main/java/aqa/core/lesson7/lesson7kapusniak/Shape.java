@@ -1,4 +1,4 @@
-package aqa.core.lesson7kapusniak;
+package aqa.core.lesson7.lesson7kapusniak;
 
 public class Shape {
 
