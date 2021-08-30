@@ -51,6 +51,7 @@ public class NSobol5 {
      * @param arr2 - second input array with unique elements
      * @return array with not common elements from input arrays
      */
+//    @Nazar what is N1 ????
 //    public int[] uniqueElementsMergeArray(int[] arr1, int[] arr2) {
 //        int[] result1 = new int[arr1.length + arr2.length];
 //        int L1 = 0;
@@ -164,5 +165,5 @@ public class NSobol5 {
         }
         return arr;
     }
-}
 
+}
