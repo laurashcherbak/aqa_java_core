@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson7.yumykhalchuk;
+package aqa.core.lesson7.yumykhalchuk;
 
 public class Triangle extends Shape{
     private double a;

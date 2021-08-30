@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson7.yumykhalchuk;
+package aqa.core.lesson7.yumykhalchuk;
 
 public class Main {
     public static void main(String[] args) {

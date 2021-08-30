@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson7.yumykhalchuk;
+package aqa.core.lesson7.yumykhalchuk;
 
 public class Circle extends Shape{
     private static final double PI = 3.1415926;
