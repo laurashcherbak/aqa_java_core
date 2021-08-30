@@ -1,7 +1,7 @@
-package main.java.aqa.core.lesson6.virakrychkovska;
+package aqa.core.lesson6.virakrychkovska;
 
 public class Sea {
-    public class Sea {
+//    public class Sea {
         private String Name;
         private int Temperature;
 
@@ -21,15 +21,15 @@ public class Sea {
             this.Temperature = this.Temperature + newDegree;
         }
 
-        public Sea(String Name, int Temperature) {
-            this.Name = Name;
-            this.Temperature = Temperature;
-        }
-
-        public Sea(String Name, int Temperature) {
-            this.Name = Name;
-            this.Temperature = Temperature;
-        }
+//        public Sea(String Name, int Temperature) {
+//            this.Name = Name;
+//            this.Temperature = Temperature;
+//        }
+//
+//        public Sea(String Name, int Temperature) {
+//            this.Name = Name;
+//            this.Temperature = Temperature;
+//        }
 
         public Sea(String Name) {
             this.Name = Name;
@@ -54,16 +54,15 @@ public class Sea {
                 return false;
 
             Sea town = (Sea) otherSea;
-            if (!this.Name.equals(sea.Name)){
+            if (!this.Name.equals(town.Name)){
                 return false;
             }
 
-            if (this.Temperature != sea.Temprerature)
+            if (this.Temperature != town.Temperature)
                 return false;
-            return false;
+            return true;
         }
-        return true;
-    }
+//    }
     @Override
     public int hashCode() {
 
