@@ -1,7 +1,6 @@
-package aqa.core.lesson3.Romanov.Yevgen;
+package aqa.core.lesson3.Romanov_Ed;
 
 import java.util.Scanner;
-
 
 public class Calculator {
     public static void main(String[] args) {
@@ -42,4 +41,3 @@ public class Calculator {
         }
     }
 }
-
