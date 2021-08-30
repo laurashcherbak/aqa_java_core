@@ -10,12 +10,12 @@ public class Rectangle {
         this.width= width;
         this.height=height;
     }
-    @Override
-    public  double calcArea (double someArea ) {
-        area = width * height;
-        System.out.println("Shape area is: " + area);
-        return area;
-    }
+//    @Override
+//    public  double calcArea (double someArea ) {
+//        area = width * height;
+//        System.out.println("Shape area is: " + area);
+//        return area;
+//    }
     public Rectangle() {
     }
 

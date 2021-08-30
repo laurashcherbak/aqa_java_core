@@ -24,7 +24,7 @@ public class Calculate {
         System.out.println(r);
         r.setHeight(10);
         r.setWidth(20);
-        r.calcArea(0);
+//        r.calcArea(0);
 
         Triagle.Triangle t = new Triagle.Triangle();
         t.setShapeColor("black");
