@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson9.halynakuchabska;
+package aqa.core.lesson9.halynakuchabska;
 
 
 public class Main {
