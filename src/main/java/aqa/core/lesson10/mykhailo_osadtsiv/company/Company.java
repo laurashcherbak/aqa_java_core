@@ -3,7 +3,6 @@ package aqa.core.lesson10.mykhailo_osadtsiv.company;
 import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.InputMismatchException;
 public class Company {
     private String name;
     private String adress;
@@ -83,5 +82,23 @@ public class Company {
         System.out.println("input new employee salary: ");
         newEmployee.setSallarry(sc.nextDouble());
         employee.add(newEmployee);
+    }
+
+    public void dismissAnEmployee () {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("input name of employee to dismiss: ");
+        String dismissed = sc.next();
+        boolean wasFired = false;
+        for (int i = 0; i < employee.size(); i++) {
+            if (dismissed.equals((employee.get(i)).getName())) {
+                employee.remove(i);
+                System.out.println("Employee " + dismissed + " was fired");
+                wasFired = true;
+            }
+        }
+        if (!wasFired) {
+            System.out.println("Employee with such name not found, try again");
+            dismissAnEmployee ();
+        }
     }
 }

@@ -9,5 +9,6 @@ public class Test {
         multisoft.addNewEmployee();
         multisoft.addNewEmployee();
         System.out.println(multisoft.getNameOfEmployeeWithHighestSallary());
+        multisoft.dismissAnEmployee();
     }
 }
