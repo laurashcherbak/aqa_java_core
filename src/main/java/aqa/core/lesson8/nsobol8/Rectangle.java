@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.nsobol8;
+package aqa.core.lesson8.nsobol8;
 
 public class Rectangle {
     private String shapeColor;
