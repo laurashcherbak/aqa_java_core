@@ -1,4 +1,4 @@
-package elenabeymart9;
+package aqa.core.lesson9.elenabeymart9;
 //1.Create a class Main with a main() method.
 // 2.In method main() declare two local variables myStr1 and myStr2 of String type and assign a value “Cartoon” for first string and ”Tomcat” for second.
 // 3.Write code to display all of the letters, which are present in the first word, but absent in the second

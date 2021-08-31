@@ -1,4 +1,4 @@
-package elenabeymart9;
+package aqa.core.lesson9.elenabeymart9;
 //Create a class Main with a main() method
 // 2.In method main() declare local variable myStr of String type and assign a value: “My best education project in GlobalLogic”
 // 3.Using the methods of the class String, do next steps:
