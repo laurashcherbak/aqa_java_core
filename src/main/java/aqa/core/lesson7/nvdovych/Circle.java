@@ -1,6 +1,6 @@
-package aqa.core.lesson7;
+package aqa.core.lesson7.nvdovych;
 
-public class Circle {
+public class Circle extends Shape{
     private double radius;
     private String shapeColor;
 

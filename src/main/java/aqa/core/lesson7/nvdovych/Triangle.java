@@ -1,7 +1,6 @@
-package aqa.core.lesson7;
+package aqa.core.lesson7.nvdovych;
 
-public class Triangle {
-    public static class Triangle  {
+public class Triangle  extends Shape{
         private double a;
         private double b;
         private double c;
@@ -53,5 +52,5 @@ public class Triangle {
         public void setC (double c){
             System.out.println("Side c: "+ c);
             this.c=c;}
-    }
+
 }

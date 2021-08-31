@@ -1,4 +1,4 @@
-package aqa.core.lesson7;
+package aqa.core.lesson7.nvdovych;
 
 public class Rectangle extends Shape {
     private double width;
