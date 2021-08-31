@@ -1,5 +1,4 @@
-package aqa.core.lesson8.akylo.sikyrynska;
-import java.util.Comparator;
+package aqa.core.lesson8.sikyrynska;
 
 abstract class Shape implements Drawable, Comparable {
     private String sC;

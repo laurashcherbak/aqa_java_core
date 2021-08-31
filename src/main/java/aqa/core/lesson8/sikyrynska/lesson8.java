@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.sikyrynska;
+package aqa.core.lesson8.sikyrynska;
 import java.util.Arrays;
 
 public class lesson8 {
