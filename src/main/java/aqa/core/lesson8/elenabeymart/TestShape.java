@@ -1,4 +1,4 @@
-package elenabeymart;
+package aqa.core.lesson8.elenabeymart;
 
 public class TestShape {
     public static void main(String[] args) {

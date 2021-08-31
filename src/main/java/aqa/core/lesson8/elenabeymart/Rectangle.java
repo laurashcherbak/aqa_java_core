@@ -1,4 +1,4 @@
-package elenabeymart;
+package aqa.core.lesson8.elenabeymart;
 
 public class Rectangle extends Shape {
     private static final String color = "Orange";
