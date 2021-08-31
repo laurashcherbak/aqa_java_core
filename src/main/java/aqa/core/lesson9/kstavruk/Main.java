@@ -1,4 +1,4 @@
-package aqa.core.lesson9;
+package aqa.core.lesson9.kstavruk;
 
 import java.nio.charset.StandardCharsets;
 import java.sql.Array;
