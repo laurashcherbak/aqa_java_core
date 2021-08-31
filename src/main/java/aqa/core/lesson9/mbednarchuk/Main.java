@@ -1,4 +1,4 @@
-package aqa.core.lesson9;
+package aqa.core.lesson9.mbednarchuk;
 
 public class Main {
     public static void main(String[] args) {

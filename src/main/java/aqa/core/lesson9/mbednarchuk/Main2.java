@@ -1,4 +1,4 @@
-package aqa.core.lesson9;
+package aqa.core.lesson9.mbednarchuk;
 
 import java.util.Locale;
 
