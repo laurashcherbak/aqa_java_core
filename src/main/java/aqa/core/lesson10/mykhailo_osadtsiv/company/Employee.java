@@ -1,5 +1,8 @@
 package aqa.core.lesson10.mykhailo_osadtsiv.company;
 
+import java.util.Locale;
+import java.util.Scanner;
+
 public class Employee {
     private String name;
     private String phoneNumber;
@@ -35,6 +38,20 @@ public class Employee {
     }
 
     public void setSallarry(double sallarry) {
-        this.sallarry = sallarry;
+        try {
+            if (sallarry < 380) {
+                throw new ToLowSalary(this);
+            } else {
+                this.sallarry = sallarry;
+            }
+        } catch (ToLowSalary e) {
+
+        }
+    }
+
+    public void setSallarry() {
+        Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+        System.out.println("Input salary that more than 380: ");
+        this.sallarry = sc.nextDouble();
     }
 }

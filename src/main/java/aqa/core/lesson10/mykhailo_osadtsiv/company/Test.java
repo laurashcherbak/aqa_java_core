@@ -8,7 +8,7 @@ public class Test {
 //        multisoft.addNewEmployee();
 //        multisoft.addNewEmployee();
 //        multisoft.addNewEmployee();
-        multisoft.addNewEmployee("Bob", "0935655656", 100);
+        multisoft.addNewEmployee("Bob", "0935655656", 600);
         multisoft.addNewEmployee("Erika", "093544656", 200);
         multisoft.addNewEmployee("Mike", "0936193232", 400);
         System.out.println(multisoft.getNameOfEmployeeWithHighestSallary());
