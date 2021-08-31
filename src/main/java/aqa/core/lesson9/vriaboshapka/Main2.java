@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson9.vriaboshapka;
+package aqa.core.lesson9.vriaboshapka;
 
 import java.util.Arrays;
 

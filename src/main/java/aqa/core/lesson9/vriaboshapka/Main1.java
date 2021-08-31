@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson9.vriaboshapka;
+package aqa.core.lesson9.vriaboshapka;
 
 public class Main1 {
     public static void main(String[]arg){
