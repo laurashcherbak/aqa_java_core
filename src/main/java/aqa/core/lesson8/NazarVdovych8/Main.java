@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.NazarVdovych8;
+package aqa.core.lesson8.NazarVdovych8;
 
 public class Main {
 
@@ -7,13 +7,13 @@ public class Main {
 
         Shape[] array = {
                 new Circle("Red", 9),
-                new Triangle("Yellow", 5, 5, 7),
-                new Rectangle("Purple", 8, 6)
+//                new Triangle("Yellow", 5, 5, 7),
+//                new Rectangle("Purple", 8, 6)
         };
 
 
         for (Shape x : array) {
-            x.draw();
+//            x.draw();
         }
 
         Rectangle r1 = new Rectangle("Purple", 8, 6);

@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.NazarVdovych8;
+package aqa.core.lesson8.NazarVdovych8;
 
 public class Triangle {
     private double a;
@@ -6,13 +6,13 @@ public class Triangle {
     private double c;
 
     public Triangle(String shapeColor, double a, double b, double c) {
-        super(shapeColor);
+//        super(shapeColor);
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
-    @Override
+//    @Override
     public double calcArea() {
         double p = (a + b + c) / 2;
         return Math.sqrt((p - a) * p * (p - c) * (p - b));

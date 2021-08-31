@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.NazarVdovych8;
+package aqa.core.lesson8.NazarVdovych8;
 
 public class Circle extends Shape {
     private double radius;
@@ -8,7 +8,7 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
-    @Override
+//    @Override
     public double calcArea() {
         return Math.PI * Math.pow(radius, 2);
     }
