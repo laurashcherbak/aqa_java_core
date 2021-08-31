@@ -8,7 +8,6 @@ public class Person {
     public String getFirstName() {
         return firstName;
     }
-
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
@@ -16,7 +15,6 @@ public class Person {
     public String getLastName() {
         return lastName;
     }
-
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
@@ -24,8 +22,14 @@ public class Person {
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         this.age = age;
+    }
+    public void setInvalidAge(int age) {
+        if (age >= 120) {
+            throw new InvalidAgeException;
+        }if (age <= 1) {
+            throw new InvalidAgeException;
+        }
     }
 }
