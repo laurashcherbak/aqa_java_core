@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson9.yumykhalchuk;
+package aqa.core.lesson9.yumykhalchuk;
 /*
 1.	Create a class Main with a main() method.
 2.	In method main() declare local variable myStr of String type and assign a value:

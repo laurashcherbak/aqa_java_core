@@ -1,6 +1,6 @@
-package main.java.aqa.core.lesson9.yumykhalchuk;
+package aqa.core.lesson9.yumykhalchuk;
 
-import org.apache.commons.lang3.ArrayUtils;
+//import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.Arrays;
 
@@ -22,7 +22,7 @@ public class Main3 {
         for(int i = 0; i < elements.length; i++) {
             for(int j = i + 1; j < elements.length; j++){
                 if (elements[i] == elements[j]){
-                    elements = ArrayUtils.remove(elements, j);
+//                    elements = ArrayUtils.remove(elements, j);
                     i--;
                 }
             }
