@@ -46,6 +46,9 @@ public class HomeWork6 {
         System.out.println(" ");
 
         Sakura sakura1 = new Sakura(5, 7, 4, true);
+        Sakura sakura2 = new Sakura(5, 7, 4, true);
+        Sakura sakura3 = new Sakura(12, 15, 2, false);
+        Sakura sakura4 = new Sakura(5, 7, 4, false);
 
         sakura1.printTree();
 
@@ -59,6 +62,19 @@ public class HomeWork6 {
         System.out.println("To String: ");
         System.out.println(sakura1.toString());
         System.out.println(" ");
+
+        System.out.println("Equals: ");
+        System.out.println(sakura1.equals(sakura2));
+        System.out.println(sakura1.equals(sakura3));
+        System.out.println(" ");
+
+        System.out.println("HashCode: ");
+        System.out.println(sakura1.hashCode());
+        System.out.println(sakura2.hashCode());
+        System.out.println(sakura3.hashCode());
+        System.out.println(sakura4.hashCode());
+        System.out.println(" ");
+
 
     }
 
