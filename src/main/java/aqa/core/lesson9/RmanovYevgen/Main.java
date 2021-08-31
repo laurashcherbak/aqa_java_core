@@ -1,4 +1,4 @@
-package aqa.core.RmanovYevgen;
+package aqa.core.lesson9.RmanovYevgen;
 
 public class Main {
     public static void main(String[] args) {

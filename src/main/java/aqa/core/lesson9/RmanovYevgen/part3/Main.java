@@ -1,4 +1,4 @@
-package aqa.core.RmanovYevgen.part3;
+package aqa.core.lesson9.RmanovYevgen.part3;
 
 import java.util.Arrays;
 
