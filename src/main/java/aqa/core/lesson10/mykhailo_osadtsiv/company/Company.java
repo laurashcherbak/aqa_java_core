@@ -117,4 +117,8 @@ public class Company {
         }
         return sum;
     }
+
+    public double theAvarageSalary () {
+        return this.theAmountOfSalaryCosts () / employee.size();
+    }
 }
