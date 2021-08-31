@@ -9,5 +9,14 @@ public class Main {
         } finally {
             System.out.println("multi was here. He drank honey, wine. They ran down his beard, but was not in his mouth");
         }
+
+        System.out.println("///////////////////////////////////////////////////");
+
+        try {
+            throw new MyException("Task 2 error");
+        } catch (MyException d) {
+            d.myExceptionPrint();
+        }
     }
+
 }
