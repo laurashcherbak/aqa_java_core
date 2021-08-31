@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson8.vriaboshapka;
+package aqa.core.lesson8.vriaboshapka;
 
 import java.util.Arrays;
 import java.util.Comparator;

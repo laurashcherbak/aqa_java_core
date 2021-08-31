@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson8.vriaboshapka;
+package aqa.core.lesson8.vriaboshapka;
 
 public abstract class Shape implements Drawable {
     public String shapeColor;
