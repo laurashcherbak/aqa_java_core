@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson9.virakrychkovska;
+package aqa.core.lesson9.virakrychkovska;
 
 import java.util.Arrays;
 

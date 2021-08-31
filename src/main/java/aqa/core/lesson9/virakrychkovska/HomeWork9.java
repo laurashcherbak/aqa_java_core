@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson9.virakrychkovska;
+package aqa.core.lesson9.virakrychkovska;
 
 public class HomeWork9 {
     public static void main(String[] arg) {

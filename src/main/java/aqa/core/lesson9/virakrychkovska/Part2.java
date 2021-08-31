@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson9.virakrychkovska;
+package aqa.core.lesson9.virakrychkovska;
 public class Part2 {
         public static void main(String [] args) {
             String Str1 = "Cartoon";
