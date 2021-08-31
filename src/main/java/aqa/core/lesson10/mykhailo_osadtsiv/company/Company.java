@@ -84,6 +84,14 @@ public class Company {
         employee.add(newEmployee);
     }
 
+    public void addNewEmployee (String name, String phoneNumber, double Sallary) {
+        Employee newEmployee = new Employee();
+        newEmployee.setName(name);
+        newEmployee.setPhoneNumber(phoneNumber);
+        newEmployee.setSallarry(Sallary);
+        employee.add(newEmployee);
+    }
+
     public void dismissAnEmployee () {
         Scanner sc = new Scanner(System.in);
         System.out.println("input name of employee to dismiss: ");
@@ -100,5 +108,13 @@ public class Company {
             System.out.println("Employee with such name not found, try again");
             dismissAnEmployee ();
         }
+    }
+
+    public double theAmountOfSalaryCosts () {
+        double sum = 0;
+        for (int i = 0; i < employee.size(); i++) {
+            sum+= ((employee.get(i)).getSallarry());
+        }
+        return sum;
     }
 }
