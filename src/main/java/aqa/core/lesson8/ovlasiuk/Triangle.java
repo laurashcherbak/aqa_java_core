@@ -1,4 +1,4 @@
-package aqa.core.lesson8;
+package aqa.core.lesson8.ovlasiuk;
 
 public class Triangle extends Shape {
     private double a;

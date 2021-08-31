@@ -1,4 +1,4 @@
-package aqa.core.lesson8;
+package aqa.core.lesson8.ovlasiuk;
 
 abstract class Shape implements Drawable, Comparable<Shape> {
     private final String shapeColor;
