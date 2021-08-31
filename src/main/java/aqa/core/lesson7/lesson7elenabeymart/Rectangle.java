@@ -1,4 +1,4 @@
-package lesson7elenabeymart;
+package aqa.core.lesson7.lesson7elenabeymart;
 
 public class Rectangle extends Shape {
     public Rectangle(String color) {

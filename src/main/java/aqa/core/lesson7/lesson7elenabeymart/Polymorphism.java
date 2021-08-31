@@ -1,4 +1,4 @@
-package lesson7elenabeymart;
+package aqa.core.lesson7.lesson7elenabeymart;
 
 public class Polymorphism {
     public static void main(String[] args) {

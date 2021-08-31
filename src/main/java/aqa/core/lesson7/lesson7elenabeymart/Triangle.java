@@ -1,4 +1,4 @@
-package lesson7elenabeymart;
+package aqa.core.lesson7.lesson7elenabeymart;
 
 public class Triangle extends Shape {
     public Triangle(String color) {

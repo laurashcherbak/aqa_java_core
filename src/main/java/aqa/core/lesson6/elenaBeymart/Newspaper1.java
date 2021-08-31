@@ -1,4 +1,4 @@
-package lesson6ElenaBeymart;
+package aqa.core.lesson6.elenaBeymart;
 
 import java.util.Arrays;
 
