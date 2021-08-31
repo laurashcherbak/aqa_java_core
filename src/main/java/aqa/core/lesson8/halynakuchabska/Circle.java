@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson8.halynakuchabska;
+package aqa.core.lesson8.halynakuchabska;
 
 import java.util.Comparator;
 
