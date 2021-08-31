@@ -1,4 +1,4 @@
-package aqa.core.lesson7;
+package aqa.core.lesson7.Tymofiiuk;
 
 public class Shape {
     private String shapeColor;

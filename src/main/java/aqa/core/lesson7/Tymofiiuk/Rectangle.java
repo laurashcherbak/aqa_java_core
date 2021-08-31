@@ -1,4 +1,4 @@
-package aqa.core.lesson7;
+package aqa.core.lesson7.Tymofiiuk;
 
 public class Rectangle extends Shape {
     private final double a;
