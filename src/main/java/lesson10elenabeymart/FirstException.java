@@ -2,8 +2,8 @@ package lesson10elenabeymart;
 
 import java.io.FileNotFoundException;
 
-public class FirstExceprtion {
-    FirstExceprtion(String msg) {
+public class FirstException {
+    FirstException(String msg) {
         msg = "this is bound to execute";
         System.out.println(msg);
     }
