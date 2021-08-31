@@ -1,4 +1,4 @@
-package avrakhovalesson9;
+package aqa.core.lesson9.avrakhovalesson9;
 
 import java.util.Locale;
 

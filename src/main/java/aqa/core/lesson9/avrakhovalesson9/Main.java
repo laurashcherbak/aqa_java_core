@@ -1,4 +1,4 @@
-package avrakhovalesson9;
+package aqa.core.lesson9.avrakhovalesson9;
 
    public class Main {
     public static void main(String[] args) {
