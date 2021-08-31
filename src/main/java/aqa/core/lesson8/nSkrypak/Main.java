@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.nSkrypak;
+package aqa.core.lesson8.nSkrypak;
 
 import java.util.Arrays;
 
@@ -21,11 +21,11 @@ public class Main extends Shape{
         System.out.println("Triangle area is: " + triangleA.calcArea());
 
         Shape[] arrFigures = {
-            new Rectangle("Neon", 4.5, 8.7),
-            new Rectangle("blue", 9.8, 8.7),
-            new Rectangle("pink", 3.5, 1.7),
-            new Rectangle("milk", 2.5, 5.7),
-            new Rectangle("coral", 6.9, 6.6),
+//            new Rectangle("Neon", 4.5, 8.7),
+//            new Rectangle("blue", 9.8, 8.7),
+//            new Rectangle("pink", 3.5, 1.7),
+//            new Rectangle("milk", 2.5, 5.7),
+//            new Rectangle("coral", 6.9, 6.6),
             new Circle("John", "yellow", 88),
             new Circle("Minnie", "milky", 3),
             new Triangle("magenta", "Lola", 4, 5, 6),
@@ -33,7 +33,7 @@ public class Main extends Shape{
         };
         Arrays.sort(arrFigures);
         for (Shape x : arrFigures) {
-            System.out.println(x.toString() + " , area is" + x.calkArea());
+//            System.out.println(x.toString() + " , area is" + x.calkArea());
         }
         for (Shape z : arrFigures) {
             System.out.println(z.draw());

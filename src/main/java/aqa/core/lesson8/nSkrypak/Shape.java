@@ -1,5 +1,4 @@
-package aqa.core.lesson8.akylo.nSkrypak;
-import java.util.Comparator;
+package aqa.core.lesson8.nSkrypak;
 
 abstract class Shape implements Drawable, Comparable{
         //fields. Instance variable

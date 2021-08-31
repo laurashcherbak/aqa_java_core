@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.nSkrypak;
+package aqa.core.lesson8.nSkrypak;
 
 public interface Drawable {
     double draw();

@@ -1,4 +1,4 @@
-package aqa.core.lesson8.akylo.nSkrypak;
+package aqa.core.lesson8.nSkrypak;
 
 public class Rectangle extends Shape implements Comparable{
     private final double width;
