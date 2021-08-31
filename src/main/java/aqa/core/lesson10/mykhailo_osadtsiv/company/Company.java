@@ -115,10 +115,15 @@ public class Company {
         for (int i = 0; i < employee.size(); i++) {
             sum+= ((employee.get(i)).getSallarry());
         }
+       // System.out.println("The amount of Salary costs is: " + sum);
         return sum;
     }
 
-    public double theAvarageSalary () {
-        return this.theAmountOfSalaryCosts () / employee.size();
+//    public double theAvarageSalary () {
+//        return this.theAmountOfSalaryCosts () / employee.size();
+//    }
+
+    public void theAvarageSalary () {
+        System.out.println("The avarage sallary is: " + this.theAmountOfSalaryCosts () / employee.size());
     }
 }
