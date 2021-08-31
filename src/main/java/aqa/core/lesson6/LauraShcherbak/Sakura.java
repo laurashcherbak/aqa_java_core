@@ -27,4 +27,35 @@ public class Sakura extends Tree{
         System.out.println("This is a tree");
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if(o == null|| getClass()!= o.getClass()) {
+            return false;
+        }
+        Sakura sakura = (Sakura) o;
+        if((getHeight() != sakura.getHeight()) || (getDiameter() != sakura.getDiameter()) || (getAge() != sakura.getAge()) || (flowers != sakura.flowers)) {
+            return false;
+        }
+        return true;
+    }
+
+    @Override
+    public int hashCode() {
+        int t;
+        if (flowers) {
+            t = 1;
+        } else {
+            t = 0;
+        }
+        int result = (int) (getHeight() ^ (getHeight() >>> 32));
+        result = 31 * result + getAge();
+        result = 30 * result + getDiameter();
+        result = 29 * result + t;
+        return result;
+    }
+
+
 }
