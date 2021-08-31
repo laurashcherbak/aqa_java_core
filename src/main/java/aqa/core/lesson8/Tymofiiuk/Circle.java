@@ -1,4 +1,4 @@
-package aqa.core.lesson8;
+package aqa.core.lesson8.Tymofiiuk;
 
 public class Circle extends Shape {
     private final double rad;

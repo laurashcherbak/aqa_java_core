@@ -1,4 +1,4 @@
-package aqa.core.lesson8;
+package aqa.core.lesson8.Tymofiiuk;
 
 public abstract class Shape implements Drawable, Comparable {
     private String shapeColor;

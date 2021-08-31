@@ -1,4 +1,4 @@
-package aqa.core.lesson8;
+package aqa.core.lesson8.Tymofiiuk;
 import java.util.Arrays;
 
 public class Main {

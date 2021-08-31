@@ -1,4 +1,4 @@
-package aqa.core.lesson8;
+package aqa.core.lesson8.Tymofiiuk;
 
 public class Triangle extends Shape {
     private final double a;
