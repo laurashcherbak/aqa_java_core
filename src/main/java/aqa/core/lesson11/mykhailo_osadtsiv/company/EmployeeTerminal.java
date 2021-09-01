@@ -3,25 +3,25 @@ package aqa.core.lesson11.mykhailo_osadtsiv.company;
 import java.util.Scanner;
 
 public class EmployeeTerminal {
-    public static void main(String[] args) {
-        Company multisoft = new Company("multisoft", "Lviv, UA", "0936193232");
-        multisoft.addNewEmployee("Bob", "0935655656", 600);
-        multisoft.addNewEmployee("Erika", "093544656", 500);
-        multisoft.addNewEmployee("Mike", "0936193232", 400);
+    public static void main(Company company) {
+//        Company multisoft = new Company("multisoft", "Lviv, UA", "0936193232");
+//        multisoft.addNewEmployee("Bob", "0935655656", 600);
+//        multisoft.addNewEmployee("Erika", "093544656", 500);
+//        multisoft.addNewEmployee("Mike", "0936193232", 400);
         Scanner sca = new Scanner(System.in);
         int currentUserIndex = -1;
         boolean trueFalseName = false;
         while (!trueFalseName) {
             System.out.println("enter your name: ");
             String currentUserName = sca.nextLine();
-            for (int i = 0; i < multisoft.employee.size(); i++) {
-                if (currentUserName.equals(multisoft.employee.get(i).getName())) {
+            for (int i = 0; i < company.employee.size(); i++) {
+                if (currentUserName.equals(company.employee.get(i).getName())) {
                     currentUserIndex = i;
                     trueFalseName = true;
                 }
             }
             if (trueFalseName) {
-                menu(multisoft, currentUserIndex);
+                menu(company, currentUserIndex);
             } else {
                 System.out.println("Wrong name!");
             }

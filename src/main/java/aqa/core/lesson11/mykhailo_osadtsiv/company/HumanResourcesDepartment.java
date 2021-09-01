@@ -3,13 +3,12 @@ package aqa.core.lesson11.mykhailo_osadtsiv.company;
 import java.util.Scanner;
 
 public class HumanResourcesDepartment {
-    public static void main(String[] args) {
-        Company multisoft = new Company("multisoft", "Lviv, UA", "0936193232");
-        multisoft.addNewEmployee("Bob", "0935655656", 600);
-        multisoft.addNewEmployee("Erika", "093544656", 500);
-        multisoft.addNewEmployee("Mike", "0936193232", 400);
-        menu(multisoft);
-    }
+//        Company multisoft = new Company("multisoft", "Lviv, UA", "0936193232");
+//        multisoft.addNewEmployee("Bob", "0935655656", 600);
+//        multisoft.addNewEmployee("Erika", "093544656", 500);
+//        multisoft.addNewEmployee("Mike", "0936193232", 400);
+//        menu(multisoft);
+
 
     public static void menu (Company companyName) {
         int menu;
@@ -53,6 +52,5 @@ public class HumanResourcesDepartment {
                 menu(companyName);
             }
         }
-
     }
 }
