@@ -19,7 +19,7 @@ public class Employee {
         return this.salary;
     }
 
-    public void printInfo() {
-        System.out.print("Name: " + name + " Phone: " + phone + " Salary: " + salary);
-    }
+    @Override
+    public String toString() {
+        return "Name: " + name + " Phone: " + phone + " Salary: " + salary; }
 }

@@ -1,4 +1,5 @@
 package aqa.core.lesson11.lpylypenko;
+import java.util.Arrays;
 
 public class Company{
     private String address;
@@ -7,7 +8,7 @@ public class Company{
 
     private Employee[] employees;
 
-    public Company(String adress, String phone) {
+    public Company(String address, String phone) {
         this.address = address;
         this.phone = phone;
         this.employees = new Employee[] { };
@@ -24,9 +25,10 @@ public class Company{
         if (emp.getSalary() >= MIN_SALARY)
         {
             Employee[] resultArr = new Employee[employees.length + 1];
-            resultArr[employees.length + 1] = emp;
+            resultArr[employees.length] = emp;
             System.arraycopy(employees, 0, resultArr, 0, employees.length);
             this.employees = resultArr;
+            System.out.println(emp.getName() + " employee was added to the company!");
         }
         else
         {
@@ -34,12 +36,16 @@ public class Company{
         }
     }
 
-    public void removeEmployee(Employee emp)
+    public void removeEmployee(String employeeName)
     {
-        int index = this.getEmployeeIndex(emp);
+        int index = this.getEmployeeIndex(employeeName);
         if (index != -1)
         {
-            System.arraycopy(employees, index + 1, employees, index, employees.length - index - 1);
+            Employee[] resultArr = new Employee[employees.length - 1 ];
+            System.arraycopy(employees, 0, resultArr, 0, index);
+            System.arraycopy(employees, index + 1, resultArr, index, resultArr.length - index);
+            this.employees  = resultArr;
+            System.out.println(employeeName + " employee was removed from the company!");
         }
     }
 
@@ -61,7 +67,7 @@ public class Company{
         return resultEmp.getName();
     }
 
-    public long getTSumOfAllSalaries()
+    public long getSumOfAllSalaries()
     {
         long sum = 0;
 
@@ -80,11 +86,18 @@ public class Company{
         return sum / employees.length;
     }
 
-    private int getEmployeeIndex(Employee emp) {
+    public void printEmployees() {
+        for (Employee emp : employees)
+        {
+            System.out.println(emp.toString());
+        }
+    }
+
+    private int getEmployeeIndex(String employeeName) {
         int index = -1;
 
         for (int i = 0; i < employees.length; i++) {
-            if (employees[i].getName().equals(emp.getName()))
+            if (employees[i].getName().equals(employeeName))
                 index = i;
         }
 
@@ -94,5 +107,10 @@ public class Company{
             return -1;
         }
         return index;
+    }
+
+    @Override
+    public String toString() {
+        return "Address: " + address + " Phone: " + phone;
     }
 }
