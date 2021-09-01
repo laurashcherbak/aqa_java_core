@@ -1,11 +1,12 @@
 package lesson11elenabeymart;
 
-public class Employee {
+public class Employee extends Company {
     private String name;
-    private Integer phone;
+    private String phone;
     private Double salary;
 
-    public Employee(String name, Integer phone, Double salary) {
+    public Employee(String name, String phone, Double salary) {
+        super(name, phone, salary);
         this.name = name;
         this.phone = phone;
         this.salary = salary;
@@ -17,10 +18,10 @@ return this.name;
     public void setName(String name) {
         this.name = name;
     }
-    public Integer getPhone() {
+    public String getPhone() {
         return this.phone = phone;
     }
-    public void setPhone(Integer phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
     public Double getSalary() {
