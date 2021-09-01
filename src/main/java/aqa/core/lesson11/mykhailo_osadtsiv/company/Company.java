@@ -58,8 +58,8 @@ public class Company {
     }
 
     public String getNameOfEmployeeWithHighestSallary () {
-//        double maxSallary = 0;
-//        int indexOfEmployeeWithHighestSallary = -1;
+//        double maxSallary = 0;                                                //i think, commented desicion is faster;
+//        int indexOfEmployeeWithHighestSallary = -1;                           //Am i right?
 //
 //        for (int i = 0; i < employee.size(); i++) {
 //            if ((employee.get(i)).getSallarry() > maxSallary) {
@@ -69,10 +69,9 @@ public class Company {
 //        }
 //        return (employee.get(indexOfEmployeeWithHighestSallary)).getName();
 
-        List<Employee> employeeList = new ArrayList<>(employee);
-        employeeList.sort(Employee::compareToSalary);
-
-        return employeeList.get(0).getName();
+        List<Employee> employeeSortedList = new ArrayList<>(employee);
+        employeeSortedList.sort(Employee::compareToSalary);
+        return employeeSortedList.get(0).getName();
     }
 
     public void addNewEmployee () {

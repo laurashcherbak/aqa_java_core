@@ -3,7 +3,7 @@ package aqa.core.lesson11.mykhailo_osadtsiv.company;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Employee implements Comparator {
+public class Employee implements ComparatorForEmployee, SalaryReview {
     private String name;
     private String phoneNumber;
     private double sallarry;
@@ -69,5 +69,25 @@ public class Employee implements Comparator {
         if (this.getSallarry() > obj.getSallarry()) return -1;
         if (this.getSallarry() < obj.getSallarry()) return 1;
         else return 0;
+    }
+
+    @Override
+    public void SalaryReview() {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("public class Test {\n" +
+                "    public static void main(String[] args) {\n" +
+                "        int x = 5;\n" +
+                "        x = x - 10;\n" +
+                "        x = (char) x;\n" +
+                "        x = x + 10;\n" +
+                "\n" +
+                "        System.out.println(\"X = \" + x);\n" +
+                "    }\n" +
+                "}\n" +
+                "Что напечатает программа?");
+        String answer = sc.nextLine();
+        if (answer.equals("X = 65541")) {
+            this.setSallarry(this.getSallarry() + 150);
+        } else System.out.println("Wrong answer. Try again after 3 month");
     }
 }
