@@ -25,7 +25,7 @@ public class Operators {
                 +"e ="+e+"; "+"t ="+t+"; "+"u = "+u+"; "+"v ="+v+";");
         //5.Print sum of 2 digits
         System.out.println("Sum = y+z; Sum = "+(y+z)+";");
-        //6.Write a program that reads from console integer value and write to console valuethat is 2 times more than input.
+        //6.Write a program that reads from console integer value and write to console value that is 2 times more than input.
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter Integer:");
         int i = Integer.parseInt(br.readLine());
