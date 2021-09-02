@@ -20,10 +20,10 @@ public class Employee extends Comparator {
     @Override
     public String toString() {
         return "Employee{" +
-                "name='" + name + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", sallarry=" + sallarry +
-                '}';
+               "name='" + name + '\'' +
+               ", phoneNumber='" + phoneNumber + '\'' +
+               ", sallarry=" + sallarry +
+               '}';
     }
 
     public String getName() {
