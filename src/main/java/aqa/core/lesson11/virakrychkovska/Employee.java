@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson11.virakrychkovska;
+package aqa.core.lesson11.virakrychkovska;
 
 public class Employee {
     private String name;
