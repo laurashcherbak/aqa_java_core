@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson10.yumykhalchuk;
+package aqa.core.lesson10.yumykhalchuk;
 
 public class MyTest {
     public void test()throws MyException{
