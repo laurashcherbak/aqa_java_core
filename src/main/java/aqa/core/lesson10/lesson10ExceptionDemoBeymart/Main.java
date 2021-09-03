@@ -1,4 +1,4 @@
-package lesson10ExceptionDemoBeymart;
+package aqa.core.lesson10.lesson10ExceptionDemoBeymart;
 
 public class Main {
     public static void main(String[] args) {

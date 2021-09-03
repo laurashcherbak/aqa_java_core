@@ -1,4 +1,4 @@
-package lesson10elenabeymart;
+package aqa.core.lesson10.lesson10elenabeymart;
 
 public class MyTest {
     public void test() throws Exception {
