@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson10.vriaboshapka;
+package aqa.core.lesson10.vriaboshapka;
 
 public class MyTest {
     public static void test() throws MyException{

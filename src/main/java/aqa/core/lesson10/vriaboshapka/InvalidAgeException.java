@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson10.vriaboshapka;
+package aqa.core.lesson10.vriaboshapka;
 
 public class InvalidAgeException extends RuntimeException{
  public InvalidAgeException(String age_is_not_suitable){
