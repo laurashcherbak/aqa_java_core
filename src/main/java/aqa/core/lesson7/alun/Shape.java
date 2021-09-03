@@ -2,6 +2,7 @@ package aqa.core.lesson7.alun;
 //red shape
 public class Shape {
     private String shapeColor;
+
     public Shape () {
         this.shapeColor = "RED";
     }
