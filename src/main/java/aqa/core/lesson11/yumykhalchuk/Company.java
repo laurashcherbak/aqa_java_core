@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson11.yumykhalchuk;
+package aqa.core.lesson11.yumykhalchuk;
 /*
 @Homework 11
 реалізуйте програму Компанія з використанням всіх можливостей ООП які вам вже відомі, з використанням
@@ -19,7 +19,7 @@ package main.java.aqa.core.lesson11.yumykhalchuk;
 
  */
 
-import org.apache.commons.lang3.ArrayUtils;
+//import org.apache.commons.lang3.ArrayUtils;
 
 import java.util.Arrays;
 
@@ -95,7 +95,7 @@ public class Company {
         for(int i = 0; i < employees.length; i++){
             for(int j = i + 1; j < employees.length; j++){
                 if (employees[i] == employees[j]){
-                    employees = ArrayUtils.remove(employees, j);
+//                    employees = ArrayUtils.remove(employees, j);
                 }
             }
 

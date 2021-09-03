@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson11.yumykhalchuk;
+package aqa.core.lesson11.yumykhalchuk;
 
 public class MainCompany {
     public static void main(String[] args) {
@@ -22,6 +22,9 @@ public class MainCompany {
         company.addEmployee(employee7);
         company.addEmployee(employee8);
 
+        System.out.println(
+                company.employeeWithMaxSalary()
+        );
 
 
 
