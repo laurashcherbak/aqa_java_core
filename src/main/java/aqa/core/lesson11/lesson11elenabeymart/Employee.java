@@ -1,4 +1,4 @@
-package lesson11elenabeymart;
+package aqa.core.lesson11.lesson11elenabeymart;
 
 public class Employee extends Company {
     private String name;
