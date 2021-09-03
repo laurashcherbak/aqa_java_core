@@ -1,4 +1,4 @@
-package aqa.core.nSkrypak;
+package aqa.core.lesson11.nSkrypak;
 
 public class CompanyMain {
     private String name;
