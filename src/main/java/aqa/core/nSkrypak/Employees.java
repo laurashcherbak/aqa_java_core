@@ -5,7 +5,6 @@ public class Employees {
     int employeesPhone;
     double salary;
 
-
     public String getEmployeesName() { return employeesName; }
     public int getEmployeesPhone() { return employeesPhone; }
     public double getSalary() { return salary; }
