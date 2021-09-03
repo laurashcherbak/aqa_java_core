@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson11.vriaboshapka;
+package aqa.core.lesson11.vriaboshapka;
 
 public class Employee {
     String name;

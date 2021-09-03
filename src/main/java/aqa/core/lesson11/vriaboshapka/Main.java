@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson11.vriaboshapka;
+package aqa.core.lesson11.vriaboshapka;
 
 import java.util.Scanner;
 
