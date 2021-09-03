@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson10.akylo.kuchabskahaluna;
+package aqa.core.lesson10.kuchabskahaluna;
 
 public class Main {
     public static void main(String[] args) {
