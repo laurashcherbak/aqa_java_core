@@ -15,10 +15,10 @@ class HumanResources {
         int menu;
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println("""
-                    Press 1 to add new employee / Press 2 to dismiss an employee
-                    Press 3 to get amount of the sallarry costs / Press 4 to get avarage sallarry in thecompany / Press 5 to get name of employee with highest salary\s
-                    Press 6 to exit / Press 7 to show employee list""");
+//            System.out.println("""
+//                    Press 1 to add new employee / Press 2 to dismiss an employee
+//                    Press 3 to get amount of the sallarry costs / Press 4 to get avarage sallarry in thecompany / Press 5 to get name of employee with highest salary\s
+//                    Press 6 to exit / Press 7 to show employee list""");
             if (sc.hasNextInt()) {
                 menu = sc.nextInt();
                 switch (menu) {
