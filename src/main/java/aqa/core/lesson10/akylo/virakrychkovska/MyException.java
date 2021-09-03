@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson10.akylo.virakrychkovska;
+package aqa.core.lesson10.akylo.virakrychkovska;
 
 public class MyException extends Task2 {
         private String errorMessage;

@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson10.akylo.virakrychkovska;
+package aqa.core.lesson10.akylo.virakrychkovska;
 
 public class Task2 {
         public static void main(String[] args) {
@@ -10,11 +10,11 @@ public class Task2 {
                 System.out.println("GlobalLogic has the QA course");
             }
         System.out.println("Since July");
-        try {
-        throw new MyException("I'm a student of GlobalLogic");
-    } catch (MyException e) {
-        e.myExceptionPrint();
-    }
+//        try {
+//        throw new MyException("I'm a student of GlobalLogic");
+//    } catch (MyException e) {
+//        e.myExceptionPrint();
+//    }
     }
 
 }

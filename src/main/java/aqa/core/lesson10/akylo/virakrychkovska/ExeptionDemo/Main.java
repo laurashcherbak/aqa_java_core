@@ -1,4 +1,4 @@
-package main.java.aqa.core.lesson10.akylo.virakrychkovska.ExeptionDemo;
+package aqa.core.lesson10.akylo.virakrychkovska.ExeptionDemo;
 
 public class Main {
     public static void main(String[] args) {
