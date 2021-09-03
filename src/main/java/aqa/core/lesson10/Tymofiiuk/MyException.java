@@ -1,4 +1,4 @@
-package aqa.core.lesson10;
+package aqa.core.lesson10.Tymofiiuk;
 
 public class MyException extends Exception {
     String string1;
