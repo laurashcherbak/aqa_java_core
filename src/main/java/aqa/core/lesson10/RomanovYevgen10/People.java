@@ -1,4 +1,4 @@
-package aqa.core.RomanovYevgen10;
+package aqa.core.lesson10.RomanovYevgen10;
 
 public class People {
     public class InvalidAgeException extends RuntimeException{
